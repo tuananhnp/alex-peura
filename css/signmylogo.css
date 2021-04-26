@@ -1,0 +1,138 @@
+@media (min-width: 767px) {
+	.pack-list-mobile {
+		display: none;
+	}
+	.mobile-note {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.tagline {
+		display: none;
+	}
+	.pack-list-desktop {
+		display: none;
+	}
+	#fp-nav.fp-right {
+		right: 5px !important;
+	}
+}
+
+@media (min-width: 991px) {
+	.section {
+		height: calc(100 * var(--vh));
+	}
+	.portrait {
+		height: calc(100 * var(--vh));
+		width: 100vw;
+	}
+	.owl-slide {
+		height: calc(100 * var(--vh));
+	}
+	.signature {
+		height: calc(100 * var(--vh));
+	}
+	.svg-title-mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+	.section {
+		height: calc(100 * var(--vh));
+	}
+	.portrait {
+		height: calc(45 * var(--vh));
+	}
+	.owl-slide {
+		height: calc(45 * var(--vh));
+	}
+	.signature {
+		height: calc(55 * var(--vh));
+	}
+	.signature-inner {
+		margin-top: -15%;
+	}
+	.svg-title-desktop {
+		display: none !important;
+	}
+	.caption {
+		display: none !important;
+	}
+	#mouse {
+		display: none !important;
+	}
+}
+
+@media (max-width: 1399px) {
+	.fp-viewing-UsageExamples #fp-nav {
+		display: none
+	}
+}
+
+.fp-tooltip {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 16px !important;
+  top: -8px !important;
+}
+
+#arthur-rackham, #tove-jansson, #william-morris, #ruth-orkin, #edward-hopper, #claude-monet {
+  pointer-events: none;
+}
+
+#fp-nav ul li a span {background: #dbc571 !important}
+.fp-tooltip {color: #dbc571 !important}
+
+.fp-viewing-ArthurRackham #arthur-rackham {display: block}
+.fp-viewing-ArthurRackham #arthur-rackham-artworks {display: block}
+.fp-viewing-ArthurRackham #tove-jansson {display: none}
+.fp-viewing-ArthurRackham #tove-jansson-artworks {display: none}
+.fp-viewing-ArthurRackham #william-morris {display: none}
+.fp-viewing-ArthurRackham #ruth-orkin {display: none}
+.fp-viewing-ArthurRackham #edward-hopper {display: none}
+.fp-viewing-ArthurRackham #claude-monet {display: none}
+
+.fp-viewing-ToveJansson #arthur-rackham {display: none}
+.fp-viewing-ToveJansson #arthur-rackham-artworks {display: none}
+.fp-viewing-ToveJansson #tove-jansson {display: block}
+.fp-viewing-ToveJansson #tove-jansson-artworks {display: block}
+.fp-viewing-ToveJansson #william-morris {display: none}
+.fp-viewing-ToveJansson #ruth-orkin {display: none}
+.fp-viewing-ToveJansson #edward-hopper {display: none}
+.fp-viewing-ToveJansson #claude-monet {display: none}
+
+.fp-viewing-WilliamMorris #arthur-rackham {display: none}
+.fp-viewing-WilliamMorris #arthur-rackham-artworks {display: none}
+.fp-viewing-WilliamMorris #tove-jansson {display: none}
+.fp-viewing-WilliamMorris #tove-jansson-artworks {display: none}
+.fp-viewing-WilliamMorris #william-morris {display: block}
+.fp-viewing-WilliamMorris #william-morris-artworks {display: block}
+.fp-viewing-WilliamMorris #ruth-orkin {display: none}
+.fp-viewing-WilliamMorris #edward-hopper {display: none}
+.fp-viewing-WilliamMorris #claude-monet {display: none}
+
+.fp-viewing-RuthOrkin #arthur-rackham {display: none}
+.fp-viewing-RuthOrkin #tove-jansson {display: none}
+.fp-viewing-RuthOrkin #william-morris {display: none}
+.fp-viewing-RuthOrkin #ruth-orkin {display: block}
+.fp-viewing-RuthOrkin #edward-hopper {display: none}
+.fp-viewing-RuthOrkin #claude-monet {display: none}
+
+.fp-viewing-EdwardHopper #arthur-rackham {display: none}
+.fp-viewing-EdwardHopper #tove-jansson {display: none}
+.fp-viewing-EdwardHopper #william-morris {display: none}
+.fp-viewing-EdwardHopper #ruth-orkin {display: none}
+.fp-viewing-EdwardHopper #edward-hopper {display: block}
+.fp-viewing-EdwardHopper #claude-monet {display: none}
+
+.fp-viewing-ClaudeMonet #arthur-rackham {display: none}
+.fp-viewing-ClaudeMonet #arthur-rackham-artworks {display: none}
+.fp-viewing-ClaudeMonet #tove-jansson {display: none}
+.fp-viewing-ClaudeMonet #tove-jansson-artworks {display: none}
+.fp-viewing-ClaudeMonet #william-morris {display: none}
+.fp-viewing-ClaudeMonet #william-morris-artworks {display: none}
+.fp-viewing-ClaudeMonet #ruth-orkin {display: none}
+.fp-viewing-ClaudeMonet #edward-hopper {display: none}
+.fp-viewing-ClaudeMonet #claude-monet {display: block}
+.fp-viewing-ClaudeMonet #claude-monet-artworks {display: block}
