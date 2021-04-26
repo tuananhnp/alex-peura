@@ -1,0 +1,62 @@
+button#mouse {
+  width: 40px;
+  height: 60px;
+  border: 3px #dbc571 solid;
+  border-radius: 40px;
+  transition: 0.3s;
+}
+
+button#mouse:hover {
+  border: 3px #dbc571 solid;
+  background: #dbc571 !important;
+  transition: 0.3s;
+}
+
+button#mouse > span {
+  position: absolute;
+  margin: auto;
+  top: -60%; left: 0; bottom: 0; right: 0;
+  width: 10px;
+  height: 10px;
+  background: #dbc571;
+  border-radius: 40px;
+  animation:         mousescroll 2s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite;
+  -o-animation:      mousescroll 2s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite; 
+  -moz-animation:    mousescroll 2s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite; 
+  -webkit-animation: mousescroll 2s cubic-bezier(0.250, 0.100, 0.250, 1.000) infinite;
+  transition: 0.3s;
+}
+
+button#mouse:hover > span {
+  background: #094877;
+  transition: 0.3s;
+}
+
+
+@keyframes mousescroll {
+  from { transform: translateY(0) }
+  40%  { transform: translateY(200%) }
+  60%  {  opacity: 1 }
+  to   { transform: translateY(200%); opacity: 0; )}
+}
+
+@-o-keyframes mousescroll {
+  from { -o-transform: translateY(0) }
+  40%  { -o-transform: translateY(200%) }
+  60%  {  opacity: 1 }
+  to   { -o-transform: translateY(200%); opacity: 0; )}
+}
+
+@-moz-keyframes mousescroll {
+  from { -moz-transform: translateY(0) }
+  40%  { -moz-transform: translateY(200%) }
+  60%  {  opacity: 1 }
+  to   { -moz-transform: translateY(200%); opacity: 0; )}
+}
+
+@-webkit-keyframes mousescroll {
+  from { -webkit-transform: translateY(0) }
+  40%  { -webkit-transform: translateY(200%) }
+  60%  {  opacity: 1 }
+  to   { -webkit-transform: translateY(200%); opacity: 0; )}
+}
