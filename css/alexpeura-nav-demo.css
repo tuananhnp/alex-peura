@@ -1,0 +1,70 @@
+/* TEMPLATE: Symmetrical nav with fullscreen menu in Mobile */
+
+.animated-icon span {background: #e0c975 !important}
+
+@media only screen
+  and (max-width: 767px) {
+    .navbar-collapse li { /* MOBILE: Adjust text in fullscreen menu */
+		font-size: 1.5rem;
+		word-spacing: -0.05rem;
+		line-height: 30px;
+		margin: 0px;
+    }
+}
+
+@media (min-width: 767px)
+  and (max-width: 991px) {
+    .navbar-collapse li { /* MOBILE: Adjust text in fullscreen menu */
+		font-size: 2rem;
+		word-spacing: -0.05rem;
+		line-height: 40px;
+		margin: 0px;
+    }
+}
+
+@media (min-width: 991px) {
+    .navbar-collapse li { /* MOBILE: Adjust text in fullscreen menu */
+		font-size: 2.5rem;
+		word-spacing: -0.05rem;
+		line-height: 50px;
+		margin: 0px;
+    }
+}
+
+.navbar-collapse { /* MOBILE: Enable fullscreen menu */
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100vw;
+	height: 100vh;
+	background-color: #094877;
+	z-index: -1;
+}
+
+.navbar-nav { /* MOBILE: Position links in fullscreen menu */
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.navbar { /* MOBILE: Fade out navbar color on switch */
+	transition: 0.3s !important;
+}
+
+.nav-item a {
+	color: white !important;
+}
+
+.switch-color { /* MOBILE: Disable scroll in fullscreen menu */
+	overflow: hidden;
+}
+
+.switch-color .nav-item:hover a { /* MOBILE: Text hover color in fullscreen menu */
+	color: #af3618 !important;
+	transition: 0.3s !important;
+}
+
+.switch-color .animated-icon span { /* MOBILE: Change nav toggler color on switch */
+	background: #f9f6e8 !important;
+}
