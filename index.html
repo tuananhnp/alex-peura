@@ -350,23 +350,11 @@
     $(rotateWord);
   </script>
   <script>
-    var brands = $('#brands');
     var examples = $('#examples');
     var logodesign = $('#logodesign');
-    brands.owlCarousel({
-      items: 1,
-      mouseDrag: false,
-      touchDrag: false,
-      autoplay: true,
-      autoplayTimeout: 5000,
-      loop: true,
-      dots: false,
-      nav: false,
-      autoHeight: true,
-      navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>']
-    });
     examples.owlCarousel({
       items: 1,
+      lazyLoad: true,
       loop: true,
       dots: true,
       nav: true,
@@ -395,6 +383,7 @@
     });
     logodesign.owlCarousel({
       items: 1,
+      lazyLoad: true,
       loop: true,
       dots: true,
       nav: false,
