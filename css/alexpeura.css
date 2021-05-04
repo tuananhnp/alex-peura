@@ -43,13 +43,13 @@
 		height: calc(100 * var(--vh));
 	}
 	.portrait {
-		height: calc(45 * var(--vh));
+		height: calc(70 * var(--vh));
 	}
 	.owl-slide {
 		height: calc(45 * var(--vh));
 	}
 	.signature {
-		height: calc(55 * var(--vh));
+		height: calc(30 * var(--vh));
 	}
 	.signature-inner {
 		margin-top: -15%;
@@ -83,6 +83,9 @@
 
 #fp-nav ul li a span {background: #dbc571 !important}
 .fp-tooltip {color: #dbc571 !important}
+
+.fp-viewing-LogoDesign .navbar-collapse {background-color: #0b4470 !important}
+.fp-viewing-LogoAnimation .navbar-collapse {background-color: #0b4470 !important}
 
 .fp-viewing-ArthurRackham #arthur-rackham {display: block}
 .fp-viewing-ArthurRackham #arthur-rackham-artworks {display: block}

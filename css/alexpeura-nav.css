@@ -3,18 +3,21 @@
 @media only screen
   and (max-width: 767px) {
     .navbar-collapse li { /* MOBILE: Adjust text in fullscreen menu */
-		font-size: 1.5rem;
+		font-size: 2rem;
 		word-spacing: -0.05rem;
-		line-height: 30px;
+		letter-spacing: 0.05rem;
+		line-height: 35px;
 		margin: 0px;
+		white-space: nowrap;
     }
 }
 
 @media (min-width: 767px)
   and (max-width: 991px) {
     .navbar-collapse li { /* MOBILE: Adjust text in fullscreen menu */
-		font-size: 2rem;
+		font-size: 2.5rem;
 		word-spacing: -0.05rem;
+		letter-spacing: 0.05rem;
 		line-height: 40px;
 		margin: 0px;
     }
@@ -22,8 +25,9 @@
 
 @media (min-width: 991px) {
     .navbar-collapse li { /* MOBILE: Adjust text in fullscreen menu */
-		font-size: 2.5rem;
+		font-size: 3rem;
 		word-spacing: -0.05rem;
+		letter-spacing: 0.05rem;
 		line-height: 50px;
 		margin: 0px;
     }
@@ -41,7 +45,7 @@
 
 .navbar-nav { /* MOBILE: Position links in fullscreen menu */
 	position: absolute;
-	top: 40%;
+	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }

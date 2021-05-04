@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 @font-face {
-  font-family: 'Salzburg';
-  src: url("fonts/Salzburg.ttf"); }
+  font-family: 'CGS';
+  src: url("fonts/CGS.ttf"); }
 
 /* Remove scroll bar in Chrome */
 html::-webkit-scrollbar {
@@ -16,9 +16,17 @@ html {
 html, body {
    height:100%;
 } */
+.fa {
+  color: #dbc571;
+  transition: 0.3s !important; }
+
+.fa:hover {
+  color: #f4efd2;
+  transition: 0.3s !important; }
+
 /* Override navbar's font style & Add hover transition */
 .nav-link {
-  font-family: 'Hammersmith One' !important; }
+  font-family: 'Alata' !important; }
 
 .nav-item a {
   color: black !important;
@@ -42,7 +50,7 @@ html, body {
 
 /* Override letter spacing in buttons */
 .btn {
-  letter-spacing: 0.05rem; }
+  letter-spacing: 0.1rem; }
 
 /* Button hover transition */
 .btn-outline-light, .btn-outline-dark {
@@ -72,22 +80,22 @@ html, body {
 
 /* Override letter spacing in headings */
 h1 {
-  letter-spacing: 0.05rem; }
+  letter-spacing: 0rem; }
 
 h2 {
-  letter-spacing: 0.05rem; }
+  letter-spacing: 0rem; }
 
 h3 {
-  letter-spacing: 0.05rem; }
+  letter-spacing: 0rem; }
 
 h4 {
-  letter-spacing: 0.05rem; }
+  letter-spacing: 0rem; }
 
 h5 {
-  letter-spacing: 0.05rem; }
+  letter-spacing: 0rem; }
 
 h6 {
-  letter-spacing: 0.05rem; }
+  letter-spacing: 0rem; }
 
 /* Drop caps for paragraphs */
 drop {
@@ -119,20 +127,20 @@ drop {
 .owl-carousel .owl-item {
   -webkit-transform: translate3d(0px, 0px, 0px); }
 
-#why .owl-dots .active span {
-  background: #af3618 !important; }
+#logodesign .owl-dots .active span {
+  background: #dbc571 !important; }
 
-#why .owl-dots span {
-  background: #094877 !important; }
+#logodesign .owl-dots span {
+  background: #f4efd2 !important; }
 
-#why .owl-dots span:hover {
-  background: #af3618 !important; }
+#logodesign .owl-dots span:hover {
+  background: #dbc571 !important; }
 
-#why .owl-prev i {
-  color: #af3618; }
+#logodesign .owl-prev i {
+  color: #dbc571; }
 
-#why .owl-next i {
-  color: #af3618; }
+#logodesign .owl-next i {
+  color: #dbc571; }
 
 #examples .owl-dots .active span {
   background: #af3618 !important; }
@@ -163,167 +171,12 @@ body {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important; }
 
-/* Animated SVGs */
-#signmylogo {
-  opacity: 0; }
-
-#signmylogo.animated {
-  opacity: 1; }
-  #signmylogo.animated .BYmjNPRl_0 {
-    stroke-dasharray: 55 57;
-    stroke-dashoffset: 56;
-    -webkit-animation: BYmjNPRl_draw 700ms ease 0ms forwards;
-            animation: BYmjNPRl_draw 700ms ease 0ms forwards; }
-  #signmylogo.animated .BYmjNPRl_1 {
-    stroke-dasharray: 55 57;
-    stroke-dashoffset: 56;
-    -webkit-animation: BYmjNPRl_draw 700ms ease 0ms forwards;
-            animation: BYmjNPRl_draw 700ms ease 0ms forwards; }
-
-@-webkit-keyframes BYmjNPRl_draw {
-  100% {
-    stroke-dashoffset: 0; } }
-
-@keyframes BYmjNPRl_draw {
-  100% {
-    stroke-dashoffset: 0; } }
-
-@-webkit-keyframes BYmjNPRl_fade {
-  0% {
-    stroke-opacity: 1; }
-  91.48936170212767% {
-    stroke-opacity: 1; }
-  100% {
-    stroke-opacity: 0; } }
-
-@keyframes BYmjNPRl_fade {
-  0% {
-    stroke-opacity: 1; }
-  91.48936170212767% {
-    stroke-opacity: 1; }
-  100% {
-    stroke-opacity: 0; } }
-  #signmylogo.animated .hMniVvKr_0 {
-    stroke-dasharray: 7 9;
-    stroke-dashoffset: 8;
-    -webkit-animation: hMniVvKr_draw 700ms ease 0ms forwards;
-            animation: hMniVvKr_draw 700ms ease 0ms forwards; }
-  #signmylogo.animated .hMniVvKr_1 {
-    stroke-dasharray: 15 17;
-    stroke-dashoffset: 16;
-    -webkit-animation: hMniVvKr_draw 700ms ease 0ms forwards;
-            animation: hMniVvKr_draw 700ms ease 0ms forwards; }
-  #signmylogo.animated .hMniVvKr_2 {
-    stroke-dasharray: 60 62;
-    stroke-dashoffset: 61;
-    -webkit-animation: hMniVvKr_draw 700ms ease 0ms forwards;
-            animation: hMniVvKr_draw 700ms ease 0ms forwards; }
-  #signmylogo.animated .hMniVvKr_3 {
-    stroke-dasharray: 61 63;
-    stroke-dashoffset: 62;
-    -webkit-animation: hMniVvKr_draw 700ms ease 0ms forwards;
-            animation: hMniVvKr_draw 700ms ease 0ms forwards; }
-
-@-webkit-keyframes hMniVvKr_draw {
-  100% {
-    stroke-dashoffset: 0; } }
-
-@keyframes hMniVvKr_draw {
-  100% {
-    stroke-dashoffset: 0; } }
-
-@-webkit-keyframes hMniVvKr_fade {
-  0% {
-    stroke-opacity: 1; }
-  91.48936170212767% {
-    stroke-opacity: 1; }
-  100% {
-    stroke-opacity: 0; } }
-
-@keyframes hMniVvKr_fade {
-  0% {
-    stroke-opacity: 1; }
-  91.48936170212767% {
-    stroke-opacity: 1; }
-  100% {
-    stroke-opacity: 0; } }
-  #signmylogo.animated .KFThoDDT_0 {
-    stroke-dasharray: 231 233;
-    stroke-dashoffset: 232;
-    -webkit-animation: KFThoDDT_draw 900ms ease-in-out 0ms forwards;
-            animation: KFThoDDT_draw 900ms ease-in-out 0ms forwards; }
-
-@-webkit-keyframes KFThoDDT_draw {
-  100% {
-    stroke-dashoffset: 0; } }
-
-@keyframes KFThoDDT_draw {
-  100% {
-    stroke-dashoffset: 0; } }
-
-@-webkit-keyframes KFThoDDT_fade {
-  0% {
-    stroke-opacity: 1; }
-  91.83673469387755% {
-    stroke-opacity: 1; }
-  100% {
-    stroke-opacity: 0; } }
-
-@keyframes KFThoDDT_fade {
-  0% {
-    stroke-opacity: 1; }
-  91.83673469387755% {
-    stroke-opacity: 1; }
-  100% {
-    stroke-opacity: 0; } }
-  #signmylogo.animated .AmGCHOhW_0 {
-    stroke-dasharray: 110 112;
-    stroke-dashoffset: 111;
-    -webkit-animation: AmGCHOhW_draw 600ms ease 0ms forwards;
-            animation: AmGCHOhW_draw 600ms ease 0ms forwards; }
-
-@-webkit-keyframes AmGCHOhW_draw {
-  100% {
-    stroke-dashoffset: 0; } }
-
-@keyframes AmGCHOhW_draw {
-  100% {
-    stroke-dashoffset: 0; } }
-
-@-webkit-keyframes AmGCHOhW_fade {
-  0% {
-    stroke-opacity: 1; }
-  91.30434782608695% {
-    stroke-opacity: 1; }
-  100% {
-    stroke-opacity: 0; } }
-
-@keyframes AmGCHOhW_fade {
-  0% {
-    stroke-opacity: 1; }
-  91.30434782608695% {
-    stroke-opacity: 1; }
-  100% {
-    stroke-opacity: 0; } }
-  #signmylogo.animated .signmylogo-stroke1 path {
-    -webkit-animation-delay: 0.8s;
-            animation-delay: 0.8s; }
-  #signmylogo.animated .signmylogo-stroke2 path {
-    -webkit-animation-delay: 1.2s;
-            animation-delay: 1.2s; }
-  #signmylogo.animated .signmylogo-stroke3 path {
-    -webkit-animation-delay: 0.3s;
-            animation-delay: 0.3s; }
-  #signmylogo.animated .signmylogo-stroke4 path {
-    -webkit-animation-delay: 1.2s;
-            animation-delay: 1.2s; }
-
 .here {
-  color: #af3618;
+  color: #dbc571;
   transition: 0.3s !important; }
 
 .here:hover {
-  color: #094877;
+  color: #f4efd2;
   transition: 0.3s !important; }
 
 /*!
@@ -631,7 +484,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.75rem;
-  font-family: "Hammersmith One", sans-serif;
+  font-family: "Alata", sans-serif;
   font-weight: 200;
   line-height: 1.2; }
 
@@ -666,11 +519,11 @@ h6, .h6 {
   font-size: 1rem; }
 
 .lead {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 300; }
   @media (max-width: 1200px) {
     .lead {
-      font-size: calc(1.255rem + 0.06vw) ; } }
+      font-size: calc(1.275rem + 0.3vw) ; } }
 
 .display-1 {
   font-size: 6rem;
@@ -2029,7 +1882,7 @@ textarea.form-control {
 
 .btn {
   display: inline-block;
-  font-family: "Hammersmith One", sans-serif;
+  font-family: "Alata", sans-serif;
   font-weight: 400;
   color: black;
   text-align: center;

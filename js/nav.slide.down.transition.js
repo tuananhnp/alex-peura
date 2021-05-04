@@ -3,7 +3,17 @@ $('.navbar-toggler').click(function() {
   fullpage_api.setMouseWheelScrolling(true);
 });
 
-$('.why-signmylogo').click(function() {
+$('.navbar-brand').click(function() {
+  $('#navbar4').slideToggle(300);
+  $('.animated-icon').toggleClass('open');
+});
+
+$('.graphic-design').click(function() {
+  $('#navbar4').slideToggle(300);
+  $('.animated-icon').toggleClass('open');
+});
+
+$('.contact-me').click(function() {
   $('#navbar4').slideToggle(300);
   $('.animated-icon').toggleClass('open');
 });

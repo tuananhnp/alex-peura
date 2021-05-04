@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 @font-face {
-font-family: 'Salzburg';
-src: url('fonts/Salzburg.ttf');
+font-family: 'CGS';
+src: url('fonts/CGS.ttf');
 }
 
 
@@ -46,18 +46,18 @@ $link-color: black;
 // Fonts
 
 $font-family-base: 'Playfair Display', serif;
-$headings-font-family: 'Hammersmith One', sans-serif;
-$display-font-family: 'Hammersmith One', sans-serif;
-$btn-font-family: 'Hammersmith One', sans-serif;
+$headings-font-family: 'Alata', sans-serif;
+$display-font-family: 'Alata', sans-serif;
+$btn-font-family: 'Alata', sans-serif;
 
 
 $headings-font-weight: 200;
-$lead-font-size: 1.3rem;
+$lead-font-size: 1.5rem;
 
 $spacer: 1.5rem;
 
 $enable-responsive-font-sizes: true;
-$font-size-base: 1.0rem;
+$font-size-base: 1rem;
 
 
 
@@ -75,8 +75,19 @@ html, body {
 } */
 
 
+.fa {
+  color: #dbc571;
+  transition: 0.3s !important;
+}
+
+.fa:hover {
+  color: #f4efd2;
+  transition: 0.3s !important;
+}
+
+
 /* Override navbar's font style & Add hover transition */
-.nav-link {font-family:'Hammersmith One' !important;}
+.nav-link {font-family: 'Alata' !important;}
 .nav-item a {
   color:black !important;
   transition: 0.3s !important;
@@ -94,19 +105,19 @@ html, body {
 
 /* Override dropdown's click highlight color */
 .dropdown-item:active {
-background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 
 /* Remove outline around selected buttons */
 *:focus {
-    outline: 0 !important;
+  outline: 0 !important;
 }
 
 
 /* Override letter spacing in buttons */
 .btn {
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.1rem;
 }
 
 
@@ -116,55 +127,55 @@ background-color: transparent !important;
 }
 
 .btn-dark:hover {
-   background: #0b4470 !important;
-   color: #dbc571 !important;
-   border: 3px solid #dbc571 !important;
-   transition: background .5s ease !important;
+  background: #0b4470 !important;
+  color: #dbc571 !important;
+  border: 3px solid #dbc571 !important;
+  transition: background .5s ease !important;
 }
 
 .btn-dark {
-   background: #dbc571 !important;
-   color: #0b4470 !important;
-   border: 3px solid #dbc571 !important;
-   transition: background .5s ease !important;
+  background: #dbc571 !important;
+  color: #0b4470 !important;
+  border: 3px solid #dbc571 !important;
+  transition: background .5s ease !important;
 }
 
 .btn-primary {
-   border: none !important;
-   transition: background .5s ease !important;
+  border: none !important;
+  transition: background .5s ease !important;
 }
 
 .btn-primary:hover {
-   background: white !important;
-   color: #af3618 !important;
-   border: none !important;
-   transition: background .5s ease !important;
+  background: white !important;
+  color: #af3618 !important;
+  border: none !important;
+  transition: background .5s ease !important;
 }
 
 
 /* Override letter spacing in headings */
 h1 {
-  letter-spacing: 0.05rem;
+  letter-spacing: 0rem;
 }
 
 h2 {
-  letter-spacing: 0.05rem;
+  letter-spacing: 0rem;
 }
 
 h3 {
-  letter-spacing: 0.05rem;
+  letter-spacing: 0rem;
 }
 
 h4 {
-  letter-spacing: 0.05rem;
+  letter-spacing: 0rem;
 }
 
 h5 {
-  letter-spacing: 0.05rem;
+  letter-spacing: 0rem;
 }
 
 h6 {
-  letter-spacing: 0.05rem;
+  letter-spacing: 0rem;
 }
 
 
@@ -194,14 +205,14 @@ drop {
 .owl-carousel .owl-item {
   -webkit-transform: translate3d(0px, 0px, 0px);}
 
-#why .owl-dots {
-  .active span {background: #af3618 !important;}
-  span {background: #094877 !important;}
-  span:hover {background: #af3618 !important;}
+#logodesign .owl-dots {
+  .active span {background: #dbc571 !important;}
+  span {background: #f4efd2 !important;}
+  span:hover {background: #dbc571 !important;}
 }
 
-#why .owl-prev i {color: #af3618}
-#why .owl-next i {color: #af3618}
+#logodesign .owl-prev i {color: #dbc571}
+#logodesign .owl-next i {color: #dbc571}
 
 #examples .owl-dots {
   .active span {background: #af3618 !important;}
@@ -238,31 +249,14 @@ body {
 }
 
 
-/* Animated SVGs */
-#signmylogo {
-  opacity: 0;
-}
-
-#signmylogo.animated {
-  opacity: 1;
-  .BYmjNPRl_0{stroke-dasharray:55 57;stroke-dashoffset:56;animation:BYmjNPRl_draw 700ms ease 0ms forwards;}.BYmjNPRl_1{stroke-dasharray:55 57;stroke-dashoffset:56;animation:BYmjNPRl_draw 700ms ease 0ms forwards;}@keyframes BYmjNPRl_draw{100%{stroke-dashoffset:0;}}@keyframes BYmjNPRl_fade{0%{stroke-opacity:1;}91.48936170212767%{stroke-opacity:1;}100%{stroke-opacity:0;}}
-.hMniVvKr_0{stroke-dasharray:7 9;stroke-dashoffset:8;animation:hMniVvKr_draw 700ms ease 0ms forwards;}.hMniVvKr_1{stroke-dasharray:15 17;stroke-dashoffset:16;animation:hMniVvKr_draw 700ms ease 0ms forwards;}.hMniVvKr_2{stroke-dasharray:60 62;stroke-dashoffset:61;animation:hMniVvKr_draw 700ms ease 0ms forwards;}.hMniVvKr_3{stroke-dasharray:61 63;stroke-dashoffset:62;animation:hMniVvKr_draw 700ms ease 0ms forwards;}@keyframes hMniVvKr_draw{100%{stroke-dashoffset:0;}}@keyframes hMniVvKr_fade{0%{stroke-opacity:1;}91.48936170212767%{stroke-opacity:1;}100%{stroke-opacity:0;}}
-.KFThoDDT_0{stroke-dasharray:231 233;stroke-dashoffset:232;animation:KFThoDDT_draw 900ms ease-in-out 0ms forwards;}@keyframes KFThoDDT_draw{100%{stroke-dashoffset:0;}}@keyframes KFThoDDT_fade{0%{stroke-opacity:1;}91.83673469387755%{stroke-opacity:1;}100%{stroke-opacity:0;}}
-.AmGCHOhW_0{stroke-dasharray:110 112;stroke-dashoffset:111;animation:AmGCHOhW_draw 600ms ease 0ms forwards;}@keyframes AmGCHOhW_draw{100%{stroke-dashoffset:0;}}@keyframes AmGCHOhW_fade{0%{stroke-opacity:1;}91.30434782608695%{stroke-opacity:1;}100%{stroke-opacity:0;}}
-  .signmylogo-stroke1 path {animation-delay: 0.8s}
-  .signmylogo-stroke2 path {animation-delay: 1.2s}
-  .signmylogo-stroke3 path {animation-delay: 0.3s}
-  .signmylogo-stroke4 path {animation-delay: 1.2s}
-}
-
 .here {
-  color: #af3618;
+  color: #dbc571;
   transition: 0.3s !important
 }
 
 .here:hover {
-  color: #094877;
-  transition: 0.3s !important
+  color: #f4efd2;
+  transition: 0.3s !important;
 }
 
 @import 'bootstrap-4.3.1';
