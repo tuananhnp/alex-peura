@@ -149,7 +149,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 px-sm-3 px-4 col-lg-12 col-sm-12">
-            <div class="owl-carousel owl-theme" id="why" style="">
+            <div class="owl-carousel owl-theme" id="why" >
               <div class="row" style="height: calc(100 * var(--vh))">
                 <div class="col-md-12 px-4 my-auto">
                   <div class="row justify-content-start">
@@ -189,7 +189,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-lg-12 col-12 mx-auto px-0">
-            <div class="owl-carousel owl-theme" id="examples" style="">
+            <div class="owl-carousel owl-theme" id="examples" >
               <div class="row px-0 mx-0" style="height: calc(100 * var(--vh))">
                 <div class="col-12 embed-responsive embed-responsive-16by9 my-auto px-0 mx-0">
                   <video src="img/samples/sample-vid-01.mp4" poster="img/samples/sample-vid-01-thumb.jpg" class="embed-responsive-item" controls="controls" preload="none"> Your browser does not support HTML5 video.</video>
@@ -297,7 +297,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="js/nav.slide.down.transition.js" style=""></script>
+  <script src="js/nav.slide.down.transition.js" ></script>
   <script src="js/dropdown.transition.js"></script>
   <script src="js/jquery.touchSwipe.min.js"></script>
   <script src="js/scrolltotop_arrow_code.js"></script>
@@ -315,7 +315,7 @@
       return false;
     });
   </script>
-  <script style="">
+  <script >
     $('.btn, .btn-outline, .btn-lg').click(function() {
       var sectionTo = $(this).attr('href');
       $('html, body').animate({
@@ -323,13 +323,13 @@
       }, 2000);
     });
   </script>
-  <script style="">
+  <script >
     function switchColor() {
       var element = document.body;
       element.classList.toggle("switch-color");
     }
   </script>
-  <script style="">
+  <script >
     var titles = ["an artist", "a painter", "an illustrator", "a fashion designer", "a photographer", "a videographer", "a film maker", "an interior designer", "an architect", "a chef", "a book author", "a musician", "a blogger"];
     var words = ["name", "signature", "logo", "personality"];
 
@@ -351,6 +351,7 @@
     examples.owlCarousel({
       items: 1,
       loop: true,
+	  smartSpeed: 450,
       dots: true,
       nav: true,
       navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
@@ -379,6 +380,7 @@
     logodesign.owlCarousel({
       items: 1,
       loop: true,
+	  smartSpeed: 450,
       dots: true,
       nav: false,
       navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
