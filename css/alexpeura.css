@@ -1,3 +1,38 @@
+@media only screen
+  and (max-width: 767px) {
+    .logo1 {
+		padding-top: 15%;
+		padding-bottom: 15%
+	}
+	.logo2 {
+		padding-top: 10%;
+		padding-bottom: 10%
+	}
+}
+
+@media (min-width: 767px)
+  and (max-width: 991px) {
+    .logo1 {
+		padding-top: 15%;
+		padding-bottom: 15%
+	}
+	.logo2 {
+		padding-top: 10%;
+		padding-bottom: 10%
+	}
+}
+
+@media (min-width: 991px) {
+    .logo1 {
+		padding-top: 25%;
+		padding-bottom: 25%
+	}
+	.logo2 {
+		padding-top: 20%;
+		padding-bottom: 20%
+	}
+}
+
 @media (min-width: 767px) {
 	.pack-list-mobile {
 		display: none;
@@ -69,6 +104,10 @@
   font-family: 'Playfair Display', serif !important;
   font-size: 16px !important;
   top: -8px !important;
+}
+
+#thuyta-logo-ver-2, #thuyta-logo-ver-1 {
+	pointer-events: none;
 }
 
 #fp-nav ul li a span {background: #dbc571 !important}
