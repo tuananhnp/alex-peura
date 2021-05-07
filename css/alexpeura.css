@@ -62,6 +62,9 @@
 		height: calc(100 * var(--vh));
 		width: 100vw;
 	}
+	.owl-slide {
+		height: calc(100 * var(--vh));
+	}
 	.signature {
 		height: calc(100 * var(--vh));
 	}
@@ -75,6 +78,9 @@
 		height: calc(100 * var(--vh));
 	}
 	.portrait {
+		height: calc(70 * var(--vh));
+	}
+	.owl-slide {
 		height: calc(70 * var(--vh));
 	}
 	.signature {
@@ -92,6 +98,8 @@
 	#mouse {
 		display: none !important;
 	}
+	.fp-viewing-LogoDesign #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-NotebookCovers #fp-nav {top: calc(85 * var(--vh))}
 }
 
 @media (max-width: 1399px) {
@@ -114,4 +122,4 @@
 .fp-tooltip {color: #dbc571 !important}
 
 .fp-viewing-LogoDesign .navbar-collapse {background-color: #0b4470 !important}
-.fp-viewing-LogoAnimation .navbar-collapse {background-color: #0b4470 !important}
+.fp-viewing-NotebookCovers .navbar-collapse {background-color: #0b4470 !important}
