@@ -8,12 +8,27 @@ $('.navbar-brand').click(function() {
   $('.animated-icon').toggleClass('open');
 });
 
-$('.graphic-design').click(function() {
+$('.logo-design').click(function() {
   $('#navbar4').slideToggle(300);
   $('.animated-icon').toggleClass('open');
 });
 
-$('.contact-me').click(function() {
+$('.notebook-covers').click(function() {
+  $('#navbar4').slideToggle(300);
+  $('.animated-icon').toggleClass('open');
+});
+
+$('.valentine-cards').click(function() {
+  $('#navbar4').slideToggle(300);
+  $('.animated-icon').toggleClass('open');
+});
+
+$('.gift-voucher').click(function() {
+  $('#navbar4').slideToggle(300);
+  $('.animated-icon').toggleClass('open');
+});
+
+$('.miscellaneous').click(function() {
   $('#navbar4').slideToggle(300);
   $('.animated-icon').toggleClass('open');
 });
