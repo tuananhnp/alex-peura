@@ -78,7 +78,7 @@
 		display: none !important;
 	}
 	.fp-viewing-LogoDesign #fp-nav {top: calc(85 * var(--vh))}
-	.fp-viewing-NotebookCovers #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-BookCovers #fp-nav {top: calc(85 * var(--vh))}
 	.fp-viewing-ValentineCards #fp-nav {top: calc(85 * var(--vh))}
 	.fp-viewing-GiftVoucher #fp-nav {top: calc(85 * var(--vh))}
 	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
@@ -100,7 +100,7 @@
 .fp-tooltip {color: #dbc571 !important}
 
 .fp-viewing-LogoDesign .navbar-collapse {background-color: #0b4470 !important}
-.fp-viewing-NotebookCovers .navbar-collapse {background-color: #0b4470 !important}
+.fp-viewing-BookCovers .navbar-collapse {background-color: #0b4470 !important}
 .fp-viewing-ValentineCards .navbar-collapse {background-color: #0b4470 !important}
 .fp-viewing-GiftVoucher .navbar-collapse {background-color: #0b4470 !important}
 .fp-viewing-Miscellaneous .navbar-collapse {background-color: #0b4470 !important}
