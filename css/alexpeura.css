@@ -42,7 +42,7 @@
 		width: 100vw;
 	}
 	.owl-slide {
-		height: calc(100 * var(--vh));
+		height: 100vh;
 	}
 	.signature {
 		height: calc(100 * var(--vh));
@@ -60,7 +60,7 @@
 		height: calc(70 * var(--vh));
 	}
 	.owl-slide {
-		height: calc(70 * var(--vh));
+		height: 70vh;
 	}
 	.signature {
 		height: calc(30 * var(--vh));
@@ -89,6 +89,10 @@
   font-family: 'Playfair Display', serif !important;
   font-size: 16px !important;
   top: -8px !important;
+}
+
+#thuyta-ver-1, #thuyta-ver-2 {
+	pointer-events: none;
 }
 
 #fp-nav ul li a span {background: #dbc571 !important}
