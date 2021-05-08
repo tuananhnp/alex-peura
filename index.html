@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="theme.css">
-  <link rel="stylesheet" href="css/scrolltotop_arrow_style.css">
+  <link rel="stylesheet" href="css/fullpage.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
   <link rel="stylesheet" href="css/alexpeura.css">
   <link rel="stylesheet" href="css/alexpeura-nav.css">
   <link rel="stylesheet" href="css/animated_nav_icon.css">
   <link rel="stylesheet" href="css/animated-mouse-scroll.css">
-  <link rel="stylesheet" href="css/owl.carousel.css">
-  <link rel="stylesheet" href="css/owl.theme.default.css">
-  <link rel="stylesheet" href="css/fullpage.min.css">
+  
   <title>Alex Peura - Hanoi-based graphic designer</title>
 </head>
 
@@ -54,7 +54,7 @@
           <div class="mx-auto col-lg-5 col-md-6 pb-2 col-7">
             <div class="row">
               <div class="col-md-11 col-12 mx-auto">
-                <img src="img/logo.svg" class="img-fluid mx-sm-0 mx-auto px-3">
+				<object type="image/svg+xml" data="img/logo.svg" class="mx-sm-0 mx-auto px-3 w-100 h-100"></object>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@
       <a href="#LogoDesign"><button id="mouse" style="position:absolute; bottom:0; left:50%; transform:translate(-50%, -50%); background:#0b4470"><span></span></button></a>
     </div>
     <div class="section text-center h-100 bg-primary text-light" data-anchor="LogoDesign" style="-webkit-transform: translate3d(0,0,0)">
-      <div class="owl-carousel owl-theme" id="logodesign" >
+      <div class="owl-carousel owl-theme" id="logodesign">
         <div class="container-fluid">
           <div class="row">
             <div class="portrait col-xl-5 col-lg-5 col-sm-12 col-12 justify-content-center align-items-center d-flex px-0" style="background-color:#55a971">
@@ -309,37 +309,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/fullpage.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
   <script src="js/nav.slide.down.transition.js"></script>
   <script src="js/dropdown.transition.js"></script>
   <script src="js/jquery.touchSwipe.min.js"></script>
   <script src="js/scrolltotop_arrow_code.js"></script>
-  <script src="js/owl.carousel.js"></script>
-  <script src="js/fullpage.min.js"></script>
   <script>
-    $(document).ready(function() {
-      $('.nav-button').on('click', function() {
-        $('.animated-icon').toggleClass('open');
-      });
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+    window.addEventListener('resize', () => {
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
     });
   </script>
   <script>
-    $("body").on("contextmenu", "img", function(e) {
-      return false;
+    new fullpage('#fullpage', {
+      scrollingSpeed: 350,
+      navigation: true,
+      navigationPosition: 'right',
+      navigationTooltips: ['Intro', 'Logo design', 'Book covers', 'Valentine cards', 'Gift voucher', 'Miscellaneous', 'Contact me'],
     });
-  </script>
-  <script>
-    $('.btn, .btn-outline, .btn-lg').click(function() {
-      var sectionTo = $(this).attr('href');
-      $('html, body').animate({
-        scrollTop: $(sectionTo).offset().top
-      }, 2000);
-    });
-  </script>
-  <script>
-    function switchColor() {
-      var element = document.body;
-      element.classList.toggle("switch-color");
-    }
   </script>
   <script>
     var logodesign = $('#logodesign');
@@ -391,25 +381,30 @@
     dots.css('transform', 'translate(-50%, -50%');
   </script>
   <script>
-    new fullpage('#fullpage', {
-      scrollingSpeed: 350,
-      navigation: true,
-      navigationPosition: 'right',
-      navigationTooltips: ['Intro', 'Logo design', 'Book covers', 'Valentine cards', 'Gift voucher', 'Miscellaneous', 'Contact me'],
-    });
-  </script>
-  <script>
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-    window.addEventListener('resize', () => {
-      let vh = window.innerHeight * 0.01;
-      document.documentElement.style.setProperty('--vh', `${vh}px`);
-    });
-  </script>
-  <script>
     $(document).ready(function() {
-      $('[data-toggle="tooltip"]').tooltip();
+      $('.nav-button').on('click', function() {
+        $('.animated-icon').toggleClass('open');
+      });
     });
+  </script>
+  <script>
+    $("body").on("contextmenu", "img", function(e) {
+      return false;
+    });
+  </script>
+  <script>
+    $('.btn, .btn-outline, .btn-lg').click(function() {
+      var sectionTo = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(sectionTo).offset().top
+      }, 2000);
+    });
+  </script>
+  <script>
+    function switchColor() {
+      var element = document.body;
+      element.classList.toggle("switch-color");
+    }
   </script>
 </body>
 
