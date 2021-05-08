@@ -77,6 +77,11 @@
 	#mouse {
 		display: none !important;
 	}
+	.fp-viewing-LogoDesign #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-BookCovers #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-ValentineCards #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-GiftVoucher #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
 }
 
 .fp-tooltip {
