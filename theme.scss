@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
@@ -52,7 +52,7 @@ $btn-font-family: 'Alata', sans-serif;
 
 
 $headings-font-weight: 200;
-$lead-font-size: 1.5rem;
+$lead-font-size: 1.3rem;
 
 $spacer: 1.5rem;
 
@@ -215,14 +215,14 @@ drop {
 #logodesign .owl-prev i {color: #dbc571}
 #logodesign .owl-next i {color: #dbc571}
 
-#notebookcovers .owl-dots {
+#bookcovers .owl-dots {
   .active span {background: #dbc571 !important;}
   span {background: #f4efd2 !important;}
   span:hover {background: #dbc571 !important;}
 }
 
-#notebookcovers .owl-prev i {color: #dbc571}
-#notebookcovers .owl-next i {color: #dbc571}
+#bookcovers .owl-prev i {color: #dbc571}
+#bookcovers .owl-next i {color: #dbc571}
 
 #examples .owl-dots {
   .active span {background: #af3618 !important;}

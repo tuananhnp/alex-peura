@@ -33,27 +33,6 @@
 	}
 }
 
-@media (min-width: 767px) {
-	.pack-list-mobile {
-		display: none;
-	}
-	.mobile-note {
-		display: none;
-	}
-}
-
-@media (max-width: 767px) {
-	.tagline {
-		display: none;
-	}
-	.pack-list-desktop {
-		display: none;
-	}
-	#fp-nav.fp-right {
-		right: 5px !important;
-	}
-}
-
 @media (min-width: 991px) {
 	.section {
 		height: calc(100 * var(--vh));
@@ -100,6 +79,9 @@
 	}
 	.fp-viewing-LogoDesign #fp-nav {top: calc(85 * var(--vh))}
 	.fp-viewing-NotebookCovers #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-ValentineCards #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-GiftVoucher #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
 }
 
 @media (max-width: 1399px) {
@@ -114,12 +96,11 @@
   top: -8px !important;
 }
 
-#thuyta-logo-ver-2, #thuyta-logo-ver-1 {
-	pointer-events: none;
-}
-
 #fp-nav ul li a span {background: #dbc571 !important}
 .fp-tooltip {color: #dbc571 !important}
 
 .fp-viewing-LogoDesign .navbar-collapse {background-color: #0b4470 !important}
 .fp-viewing-NotebookCovers .navbar-collapse {background-color: #0b4470 !important}
+.fp-viewing-ValentineCards .navbar-collapse {background-color: #0b4470 !important}
+.fp-viewing-GiftVoucher .navbar-collapse {background-color: #0b4470 !important}
+.fp-viewing-Miscellaneous .navbar-collapse {background-color: #0b4470 !important}
