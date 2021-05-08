@@ -1,3 +1,3 @@
 $('.dropdown-toggle').click(function() {
-  $('.dropdown-menu').slideToggle(300);
+  $('.dropdown-menu').slideToggle(400);
 });

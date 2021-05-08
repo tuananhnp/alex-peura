@@ -221,7 +221,7 @@
       </div>
     </div>
     <div class="section text-center h-100 bg-primary text-light" data-anchor="GiftVoucher" style="-webkit-transform: translate3d(0,0,0)">
-      <div class="owl-carousel owl-theme" id="test1" >
+      <div class="owl-carousel owl-theme" id="test1">
         <div class="container-fluid">
           <div class="row">
             <div class="portrait col-xl-5 col-lg-5 col-sm-12 col-12 justify-content-center align-items-center d-flex px-0" style="background-color:#55a971">
@@ -276,23 +276,6 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-lg-12 col-12 mx-auto px-0">
-            <div class="owl-carousel owl-theme" id="examples">
-              <div class="row px-0 mx-0" style="height: calc(100 * var(--vh))">
-                <div class="col-12 embed-responsive embed-responsive-16by9 my-auto px-0 mx-0">
-                  <video src="img/samples/sample-vid-01.mp4" poster="img/samples/sample-vid-01-thumb.jpg" class="embed-responsive-item" controls="controls" preload="none"> Your browser does not support HTML5 video.</video>
-                </div>
-              </div>
-              <div class="row px-0 mx-0" style="height: calc(100 * var(--vh))">
-                <div class="col-12 embed-responsive embed-responsive-16by9 my-auto px-0 mx-0">
-                  <video src="img/samples/Pexels Videos 1926295.mp4" class="embed-responsive-item" controls="controls" preload="none"> Your browser does not support HTML5 video.</video>
-                </div>
-              </div>
-              <div class="row px-0 mx-0" style="height: calc(100 * var(--vh))">
-                <div class="col-12 embed-responsive embed-responsive-16by9 my-auto px-0 mx-0">
-                  <video src="img/samples/Reflection Of Trees.mp4" class="embed-responsive-item" controls="controls" preload="none"> Your browser does not support HTML5 video.</video>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -359,58 +342,12 @@
     }
   </script>
   <script>
-    var titles = ["an artist", "a painter", "an illustrator", "a fashion designer", "a photographer", "a videographer", "a film maker", "an interior designer", "an architect", "a chef", "a book author", "a musician", "a blogger"];
-    var words = ["name", "signature", "logo", "personality"];
-
-    function rotateTitle() {
-      var ct = $("#profession").data("title") || 0;
-      $("#profession").data("title", ct == titles.length - 1 ? 0 : ct + 1).text(titles[ct]).fadeIn().delay(1500).fadeOut(200, rotateTitle);
-    }
-    $(rotateTitle);
-
-    function rotateWord() {
-      var ct = $("#personalization").data("word") || 0;
-      $("#personalization").data("word", ct == words.length - 1 ? 0 : ct + 1).text(words[ct]).fadeIn().delay(1500).fadeOut(200, rotateWord);
-    }
-    $(rotateWord);
-  </script>
-  <script>
-    var examples = $('#examples');
     var logodesign = $('#logodesign');
     var bookcovers = $('#bookcovers');
-    examples.owlCarousel({
-      items: 1,
-      loop: true,
-      smartSpeed: 500,
-      dots: true,
-      nav: true,
-      navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-      onTranslate: function() {
-        $('.embed-responsive').each(function() {
-          var vids = $(this).find("video");
-          if (vids.length > 0) {
-            vids[0].pause();
-            vids[0].currentTime = 0;
-          }
-        });
-      },
-      onDrag: function() {
-        fullpage_api.setAllowScrolling(false);
-        document.ontouchmove = function(e) {
-          e.preventDefault();
-        }
-      },
-      onDragged: function() {
-        fullpage_api.setAllowScrolling(true);
-        document.ontouchmove = function(e) {
-          return true;
-        }
-      }
-    });
     logodesign.owlCarousel({
       items: 1,
       loop: true,
-      smartSpeed: 500,
+      smartSpeed: 450,
       dots: true,
       nav: false,
       navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
@@ -430,7 +367,7 @@
     bookcovers.owlCarousel({
       items: 1,
       loop: true,
-      smartSpeed: 500,
+      smartSpeed: 450,
       dots: true,
       nav: true,
       navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
@@ -454,21 +391,8 @@
     dots.css('transform', 'translate(-50%, -50%');
   </script>
   <script>
-    jQuery(document.documentElement).keyup(function(event) {
-      var owl = jQuery(".owl-carousel");
-      // handle cursor keys
-      if (event.keyCode == 37) {
-        // go left
-        owl.trigger('prev.owl.carousel');
-      } else if (event.keyCode == 39) {
-        // go right
-        owl.trigger('next.owl.carousel');
-      }
-    });
-  </script>
-  <script>
     new fullpage('#fullpage', {
-      scrollingSpeed: 450,
+      scrollingSpeed: 500,
       navigation: true,
       navigationPosition: 'right',
       navigationTooltips: ['Intro', 'Logo design', 'Book covers', 'Valentine cards', 'Gift voucher', 'Miscellaneous', 'Contact me'],
@@ -487,14 +411,6 @@
       $('[data-toggle="tooltip"]').tooltip();
     });
   </script>
-  <!-- <script>
-    $('.navbar-collapse').on('shown.bs.collapse', function() {
-      fullpage_api.setMouseWheelScrolling(false);
-    });
-    $('.navbar-collapse').on('hidden.bs.collapse', function() {
-      fullpage_api.setMouseWheelScrolling(true);
-    });
-  </script> -->
 </body>
 
 </html>
