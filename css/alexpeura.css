@@ -1,35 +1,35 @@
 @media only screen
   and (max-width: 767px) {
     .logo1 {
-		padding-top: 8vh;
-		padding-bottom: 8vh
+		padding-top: calc(8 * var(--vh));
+		padding-bottom: calc(8 * var(--vh));
 	}
 	.logo2 {
-		padding-top: 5vh;
-		padding-bottom: 5vh
+		padding-top: calc(5 * var(--vh));
+		padding-bottom: calc(5 * var(--vh));
 	}
 }
 
 @media (min-width: 767px)
   and (max-width: 991px) {
     .logo1 {
-		padding-top: 8vh;
-		padding-bottom: 8vh
+		padding-top: calc(8 * var(--vh));
+		padding-bottom: calc(8 * var(--vh));
 	}
 	.logo2 {
-		padding-top: 5vh;
-		padding-bottom: 5vh
+		padding-top: calc(5 * var(--vh));
+		padding-bottom: calc(5 * var(--vh));
 	}
 }
 
 @media (min-width: 991px) {
     .logo1 {
-		padding-top: 23vh;
-		padding-bottom: 27vh
+		padding-top: calc(23 * var(--vh));
+		padding-bottom: calc(27 * var(--vh));
 	}
 	.logo2 {
-		padding-top: 18vh;
-		padding-bottom: 22vh
+		padding-top: calc(18 * var(--vh));
+		padding-bottom: calc(22 * var(--vh));
 	}
 }
 
@@ -42,7 +42,7 @@
 		width: 100vw;
 	}
 	.owl-slide {
-		height: 100vh;
+		height: calc(100 * var(--vh));
 	}
 	.signature {
 		height: calc(100 * var(--vh));
@@ -60,7 +60,7 @@
 		height: calc(70 * var(--vh));
 	}
 	.owl-slide {
-		height: 70vh;
+		height: calc(70 * var(--vh));
 	}
 	.signature {
 		height: calc(30 * var(--vh));
