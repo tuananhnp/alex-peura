@@ -31,9 +31,6 @@
 }
 
 @media (min-width: 991px) {
-	.section {
-		height: calc(100 * var(--vh));
-	}
 	.portrait {
 		height: calc(100 * var(--vh));
 	}
