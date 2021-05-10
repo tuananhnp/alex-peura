@@ -78,14 +78,17 @@
 }
 
 @media (min-width: 991px) {
+	.section {
+		height: calc(100 * var(--vh)) !important;
+	}
 	.portrait {
-		height: calc(100 * var(--vh));
+		height: calc(100 * var(--vh)) !important;
 	}
 	.owl-slide {
-		height: calc(100 * var(--vh));
+		height: calc(100 * var(--vh)) !important;
 	}
 	.signature {
-		height: calc(100 * var(--vh));
+		height: calc(100 * var(--vh)) !important;
 	}
 	.svg-title-mobile {
 		display: none;
