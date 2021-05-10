@@ -1,12 +1,12 @@
 @media (max-width: 991px) {
 	.portrait {
-		height: calc(70 * var(--vh));
+		height: calc(70 * var(--vh)) !important;
 	}
 	.owl-slide {
-		height: calc(70 * var(--vh));
+		height: calc(70 * var(--vh)) !important;
 	}
 	.signature {
-		height: calc(30 * var(--vh));
+		height: calc(30 * var(--vh)) !important;
 	}
 	.signature-inner {
 		margin-top: -15%;
