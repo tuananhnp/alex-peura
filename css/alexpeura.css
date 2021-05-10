@@ -78,12 +78,8 @@
 }
 
 @media (min-width: 991px) {
-	.section {
-		height: calc(100 * var(--vh));
-	}
 	.portrait {
 		height: calc(100 * var(--vh));
-		width: 100vw;
 	}
 	.owl-slide {
 		height: calc(100 * var(--vh));
@@ -94,12 +90,14 @@
 	.svg-title-mobile {
 		display: none;
 	}
+	.fp-viewing-LogoDesign .navbar-collapse {background-color: #0b4470 !important}
+	.fp-viewing-BookCovers .navbar-collapse {background-color: #0b4470 !important}
+	.fp-viewing-ValentineCards .navbar-collapse {background-color: #0b4470 !important}
+	.fp-viewing-GiftVoucher .navbar-collapse {background-color: #0b4470 !important}
+	.fp-viewing-Miscellaneous .navbar-collapse {background-color: #0b4470 !important}
 }
 
 @media (max-width: 991px) {
-	.section {
-		height: calc(100 * var(--vh));
-	}
 	.portrait {
 		height: calc(70 * var(--vh));
 	}
@@ -128,13 +126,6 @@
 	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
 }
 
-@media (min-width: 991px)
-  and (max-width: 1199px) {
-    .caption p {
-		font-size: 1rem;
-	}
-}
-
 .fp-tooltip {
   font-family: 'Playfair Display', serif !important;
   font-size: 16px !important;
@@ -147,9 +138,3 @@
 
 #fp-nav ul li a span {background: #dbc571 !important}
 .fp-tooltip {color: #dbc571 !important}
-
-.fp-viewing-LogoDesign .navbar-collapse {background-color: #0b4470 !important}
-.fp-viewing-BookCovers .navbar-collapse {background-color: #0b4470 !important}
-.fp-viewing-ValentineCards .navbar-collapse {background-color: #0b4470 !important}
-.fp-viewing-GiftVoucher .navbar-collapse {background-color: #0b4470 !important}
-.fp-viewing-Miscellaneous .navbar-collapse {background-color: #0b4470 !important}
