@@ -1,12 +1,12 @@
 @media (max-width: 991px) {
 	.portrait {
-		height: calc(70 * var(--vh)) !important;
+		height: 70vh;
 	}
 	.owl-slide {
-		height: calc(70 * var(--vh)) !important;
+		height: 70vh;
 	}
 	.signature {
-		height: calc(30 * var(--vh)) !important;
+		height: 30vh;
 	}
 	.signature-inner {
 		margin-top: -15%;
@@ -29,13 +29,13 @@
 
 @media (min-width: 991px) {
 	.portrait {
-		height: calc(100 * var(--vh));
+		height: 100vh;
 	}
 	.owl-slide {
-		height: calc(100 * var(--vh));
+		height: 100vh;
 	}
 	.signature {
-		height: calc(100 * var(--vh));
+		height: 100vh;
 	}
 	.svg-title-mobile {
 		display: none;
