@@ -1,25 +1,12 @@
-@media only screen
-  and (max-width: 767px) {
-    .portrait {
-		height: calc(100 * var(--vh)) !important;
-	}
-	.owl-slide {
-		height: calc(100 * var(--vh)) !important;
-	}
-	.signature {
-		display: none !important;
-	}
-}
-
 @media (max-width: 991px) {
 	.portrait {
-		height: calc(70 * var(--vh));
+		height: calc(70 * var(--vh)) !important;
 	}
 	.owl-slide {
-		height: calc(70 * var(--vh));
+		height: calc(70 * var(--vh)) !important;
 	}
 	.signature {
-		height: calc(30 * var(--vh));
+		height: calc(30 * var(--vh)) !important;
 	}
 	.signature-inner {
 		margin-top: -15%;
@@ -33,6 +20,12 @@
 	#mouse {
 		display: none !important;
 	}
+	.fp-viewing-LogoDesign #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-BookCovers #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-ValentineCards #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-GiftVoucher #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-ContactMe #fp-nav {display: none !important}
 }
 
 @media (min-width: 991px) {
@@ -58,20 +51,20 @@
 @media only screen
   and (max-width: 767px) {
     .logo1 {
-		padding-top: calc(20 * var(--vh));
-		padding-bottom: calc(20 * var(--vh));
+		padding-top: calc(8 * var(--vh));
+		padding-bottom: calc(8 * var(--vh));
 	}
 	.logo2 {
-		padding-top: calc(15 * var(--vh));
-		padding-bottom: calc(15 * var(--vh));
+		padding-top: calc(5 * var(--vh));
+		padding-bottom: calc(5 * var(--vh));
 	}
 	.logo3 {
-		padding-left: 50px;
-		padding-right: 50px;
+		padding-left: calc(10 * var(--vh));
+		padding-right: calc(10 * var(--vh));
 	}
 	.logo4 {
-		padding-left: 50px;
-		padding-right: 50px;
+		padding-left: calc(10 * var(--vh));
+		padding-right: calc(10 * var(--vh));
 	}
 }
 
@@ -105,12 +98,12 @@
 		padding-bottom: calc(22 * var(--vh));
 	}
 	.logo3 {
-		padding-left: calc(10 * var(--vh));
-		padding-right: calc(10 * var(--vh));
+		padding-left: calc(5 * var(--vh));
+		padding-right: calc(5 * var(--vh));
 	}
 	.logo4 {
-		padding-left: calc(10 * var(--vh));
-		padding-right: calc(10 * var(--vh));
+		padding-left: calc(5 * var(--vh));
+		padding-right: calc(5 * var(--vh));
 	}
 }
 
@@ -125,26 +118,14 @@
 		padding-bottom: calc(22 * var(--vh));
 	}
 	.logo3 {
-		padding-left: calc(10 * var(--vh));
-		padding-right: calc(10 * var(--vh));
+		padding-left: calc(5 * var(--vh));
+		padding-right: calc(5 * var(--vh));
 	}
 	.logo4 {
-		padding-left: calc(10 * var(--vh));
-		padding-right: calc(10 * var(--vh));
+		padding-left: calc(5 * var(--vh));
+		padding-right: calc(5 * var(--vh));
 	}
 }
-
-@media (min-width: 767px)
-  and (max-width: 991px) {
-   .fp-viewing-LogoDesign #fp-nav {top: calc(85 * var(--vh))}
-	.fp-viewing-BookCovers #fp-nav {top: calc(85 * var(--vh))}
-	.fp-viewing-ValentineCards #fp-nav {top: calc(85 * var(--vh))}
-	.fp-viewing-GiftVoucher #fp-nav {top: calc(85 * var(--vh))}
-	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
-	.fp-viewing-ContactMe #fp-nav {display: none !important}
-}
-
-
 
 .fp-tooltip {
   font-family: 'Playfair Display', serif !important;
