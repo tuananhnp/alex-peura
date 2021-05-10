@@ -232,23 +232,59 @@ drop {
 
 
 /* Responsive layout for overlapping elements */
-.overlapping-text {
-  margin-top: 100px;
-  margin-left: -200px;
-  margin-bottom: 150px;
-  z-index: -1;
+@media (max-width: 991px) {
+	.portrait {
+		height: calc(70 * var(--vh)) !important;
+		width: calc(100 * var(--vw)) !important;
+	}
+	.owl-slide {
+		height: calc(70 * var(--vh)) !important;
+		width: calc(100 * var(--vw)) !important;
+	}
+	.signature {
+		height: calc(30 * var(--vh)) !important;
+		width: calc(100 * var(--vw)) !important;
+	}
+	.signature-inner {
+		margin-top: -15%;
+	}
+	.svg-title-desktop {
+		display: none !important;
+	}
+	.caption {
+		display: none !important;
+	}
+	#mouse {
+		display: none !important;
+	}
+	.fp-viewing-LogoDesign #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-BookCovers #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-ValentineCards #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-GiftVoucher #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
 }
 
-.overlapping-image {
-  z-index: 1;
-}
-
-@media only screen
-  and (max-width: 767px) {
-	.overlapping-text {
-    margin: 0;
-  	margin-top: -200px;
-  }
+@media (min-width: 991px) {
+	.section {
+		height: calc(100 * var(--vh));
+	}
+	.portrait {
+		height: calc(100 * var(--vh));
+	}
+	.owl-slide {
+		height: calc(100 * var(--vh));
+	}
+	.signature {
+		height: calc(100 * var(--vh));
+	}
+	.svg-title-mobile {
+		display: none;
+	}
+	.fp-viewing-LogoDesign .navbar-collapse {background-color: #0b4470 !important}
+	.fp-viewing-BookCovers .navbar-collapse {background-color: #0b4470 !important}
+	.fp-viewing-ValentineCards .navbar-collapse {background-color: #0b4470 !important}
+	.fp-viewing-GiftVoucher .navbar-collapse {background-color: #0b4470 !important}
+	.fp-viewing-Miscellaneous .navbar-collapse {background-color: #0b4470 !important}
 }
 
 
