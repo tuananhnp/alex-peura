@@ -1,0 +1,140 @@
+@media (max-width: 991px) {
+	.portrait {
+		height: calc(70 * var(--vh)) !important;
+	}
+	.owl-slide {
+		height: calc(70 * var(--vh)) !important;
+	}
+	.signature {
+		height: calc(30 * var(--vh)) !important;
+	}
+	.signature-inner {
+		margin-top: -15%;
+	}
+	.svg-title-desktop {
+		display: none !important;
+	}
+	.caption {
+		display: none !important;
+	}
+	#mouse {
+		display: none !important;
+	}
+	.fp-viewing-LogoDesign #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-BookCovers #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-ValentineCards #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-GiftVoucher #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
+}
+
+@media (min-width: 991px) {
+	.portrait {
+		height: calc(100 * var(--vh));
+	}
+	.owl-slide {
+		height: calc(100 * var(--vh));
+	}
+	.signature {
+		height: calc(100 * var(--vh));
+	}
+	.svg-title-mobile {
+		display: none;
+	}
+	.fp-viewing-LogoDesign .navbar-collapse {background-color: #0b4470 !important}
+	.fp-viewing-BookCovers .navbar-collapse {background-color: #0b4470 !important}
+	.fp-viewing-ValentineCards .navbar-collapse {background-color: #0b4470 !important}
+	.fp-viewing-GiftVoucher .navbar-collapse {background-color: #0b4470 !important}
+	.fp-viewing-Miscellaneous .navbar-collapse {background-color: #0b4470 !important}
+}
+
+@media only screen
+  and (max-width: 767px) {
+    .logo1 {
+		padding-top: calc(8 * var(--vh));
+		padding-bottom: calc(8 * var(--vh));
+	}
+	.logo2 {
+		padding-top: calc(5 * var(--vh));
+		padding-bottom: calc(5 * var(--vh));
+	}
+	.logo3 {
+		padding-left: calc(10 * var(--vh));
+		padding-right: calc(10 * var(--vh));
+	}
+	.logo4 {
+		padding-left: calc(10 * var(--vh));
+		padding-right: calc(10 * var(--vh));
+	}
+}
+
+@media (min-width: 767px)
+  and (max-width: 991px) {
+    .logo1 {
+		padding-top: calc(8 * var(--vh));
+		padding-bottom: calc(8 * var(--vh));
+	}
+	.logo2 {
+		padding-top: calc(5 * var(--vh));
+		padding-bottom: calc(5 * var(--vh));
+	}
+	.logo3 {
+		padding-left: calc(25 * var(--vh));
+		padding-right: calc(25 * var(--vh));
+	}
+	.logo4 {
+		padding-left: calc(25 * var(--vh));
+		padding-right: calc(25 * var(--vh));
+	}
+}
+
+@media (min-width: 991px) {
+    .logo1 {
+		padding-top: calc(23 * var(--vh));
+		padding-bottom: calc(27 * var(--vh));
+	}
+	.logo2 {
+		padding-top: calc(18 * var(--vh));
+		padding-bottom: calc(22 * var(--vh));
+	}
+	.logo3 {
+		padding-left: calc(15 * var(--vh));
+		padding-right: calc(15 * var(--vh));
+	}
+	.logo4 {
+		padding-left: calc(15 * var(--vh));
+		padding-right: calc(15 * var(--vh));
+	}
+}
+
+@media (min-width: 991px)
+  and (max-width: 1199px) {
+    .logo1 {
+		padding-top: calc(23 * var(--vh));
+		padding-bottom: calc(27 * var(--vh));
+	}
+	.logo2 {
+		padding-top: calc(18 * var(--vh));
+		padding-bottom: calc(22 * var(--vh));
+	}
+	.logo3 {
+		padding-left: calc(10 * var(--vh));
+		padding-right: calc(10 * var(--vh));
+	}
+	.logo4 {
+		padding-left: calc(10 * var(--vh));
+		padding-right: calc(10 * var(--vh));
+	}
+}
+
+.fp-tooltip {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 16px !important;
+  top: -8px !important;
+}
+
+#thuyta-ver-1, #thuyta-ver-2 {
+	pointer-events: none;
+}
+
+#fp-nav ul li a span {background: #dbc571 !important}
+.fp-tooltip {color: #dbc571 !important}
