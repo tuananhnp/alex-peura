@@ -25,6 +25,7 @@
 	.fp-viewing-ValentineCards #fp-nav {top: calc(85 * var(--vh))}
 	.fp-viewing-GiftVoucher #fp-nav {top: calc(85 * var(--vh))}
 	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-ContactMe #fp-nav {display: none}
 }
 
 @media (min-width: 991px) {
