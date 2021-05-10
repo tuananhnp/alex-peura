@@ -1,12 +1,12 @@
 @media (max-width: 991px) {
 	.portrait {
-		height: 70vh;
+		height: calc(70 * var(--vh)) !important;
 	}
 	.owl-slide {
-		height: 70vh;
+		height: calc(70 * var(--vh)) !important;
 	}
 	.signature {
-		height: 30vh;
+		height: calc(30 * var(--vh)) !important;
 	}
 	.signature-inner {
 		margin-top: -15%;
@@ -20,23 +20,22 @@
 	#mouse {
 		display: none !important;
 	}
-	.fp-viewing-LogoDesign #fp-nav {top: 85vh}
-	.fp-viewing-BookCovers #fp-nav {top: 85vh}
-	.fp-viewing-ValentineCards #fp-nav {top: 85vh}
-	.fp-viewing-GiftVoucher #fp-nav {top: 85vh}
-	.fp-viewing-Miscellaneous #fp-nav {top: 85vh}
-	.fp-viewing-ContactMe #fp-nav {display: none}
+	.fp-viewing-LogoDesign #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-BookCovers #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-ValentineCards #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-GiftVoucher #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
 }
 
 @media (min-width: 991px) {
 	.portrait {
-		height: 100vh;
+		height: calc(100 * var(--vh));
 	}
 	.owl-slide {
-		height: 100vh;
+		height: calc(100 * var(--vh));
 	}
 	.signature {
-		height: 100vh;
+		height: calc(100 * var(--vh));
 	}
 	.svg-title-mobile {
 		display: none;
@@ -51,79 +50,79 @@
 @media only screen
   and (max-width: 767px) {
     .logo1 {
-		padding-top: 8vh;
-		padding-bottom: 8vh;
+		padding-top: calc(8 * var(--vh));
+		padding-bottom: calc(8 * var(--vh));
 	}
 	.logo2 {
-		padding-top: 5vh;
-		padding-bottom: 5vh;
+		padding-top: calc(5 * var(--vh));
+		padding-bottom: calc(5 * var(--vh));
 	}
 	.logo3 {
-		padding-left: 10vw;
-		padding-right: 10vw;
+		padding-left: calc(10 * var(--vh));
+		padding-right: calc(10 * var(--vh));
 	}
 	.logo4 {
-		padding-left: 10vw;
-		padding-right: 10vw;
+		padding-left: calc(10 * var(--vh));
+		padding-right: calc(10 * var(--vh));
 	}
 }
 
 @media (min-width: 767px)
   and (max-width: 991px) {
     .logo1 {
-		padding-top: 8vh;
-		padding-bottom: 8vh;
+		padding-top: calc(8 * var(--vh));
+		padding-bottom: calc(8 * var(--vh));
 	}
 	.logo2 {
-		padding-top: 5vh;
-		padding-bottom: 5vh;
+		padding-top: calc(5 * var(--vh));
+		padding-bottom: calc(5 * var(--vh));
 	}
 	.logo3 {
-		padding-left: 25vw;
-		padding-right: 25vw;
+		padding-left: calc(25 * var(--vh));
+		padding-right: calc(25 * var(--vh));
 	}
 	.logo4 {
-		padding-left: 25vw;
-		padding-right: 25vw;
+		padding-left: calc(25 * var(--vh));
+		padding-right: calc(25 * var(--vh));
 	}
 }
 
 @media (min-width: 991px) {
     .logo1 {
-		padding-top: 23vh;
-		padding-bottom: 27vh;
+		padding-top: calc(23 * var(--vh));
+		padding-bottom: calc(27 * var(--vh));
 	}
 	.logo2 {
-		padding-top: 18vh;
-		padding-bottom: 18vh;
+		padding-top: calc(18 * var(--vh));
+		padding-bottom: calc(22 * var(--vh));
 	}
 	.logo3 {
-		padding-left: 5vw;
-		padding-right: 5vw;
+		padding-left: calc(10 * var(--vh));
+		padding-right: calc(10 * var(--vh));
 	}
 	.logo4 {
-		padding-left: 5vw;
-		padding-right: 5vw;
+		padding-left: calc(10 * var(--vh));
+		padding-right: calc(10 * var(--vh));
 	}
 }
 
 @media (min-width: 991px)
   and (max-width: 1199px) {
     .logo1 {
-		padding-top: 23vh;
-		padding-bottom: 27vh;
+		padding-top: calc(23 * var(--vh));
+		padding-bottom: calc(27 * var(--vh));
 	}
 	.logo2 {
-		padding-top: 18vh;
-		padding-bottom: 22vh;
+		padding-top: calc(18 * var(--vh));
+		padding-bottom: calc(22 * var(--vh));
 	}
 	.logo3 {
-		padding-left: 5vw;
-		padding-right: 5vw;
+		padding-left: calc(10 * var(--vh));
+		padding-right: calc(10 * var(--vh));
 	}
 	.logo4 {
-		padding-left: 5vw;
-		padding-right: 5vw;
+		padding-left: calc(10 * var(--vh));
+		padding-right: calc(10 * var(--vh));
 	}
 }
 
