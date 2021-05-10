@@ -1,79 +1,135 @@
-@media only screen
-  and (max-width: 767px) {
-    .logo1 {
-		padding-top: calc(8 * var(--vh));
-		padding-bottom: calc(8 * var(--vh));
+@media (max-width: 766px) {
+	.logo1 {
+		padding-top: 15vh;
+		padding-bottom: 15vh;
+		padding-left: 15vh;
+		padding-right: 15vh;
 	}
 	.logo2 {
-		padding-top: calc(5 * var(--vh));
-		padding-bottom: calc(5 * var(--vh));
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
 	}
 	.logo3 {
-		padding-left: calc(10 * var(--vh));
-		padding-right: calc(10 * var(--vh));
+		padding-top: 10vh;
+		padding-bottom: 15vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
 	}
 	.logo4 {
-		padding-left: calc(10 * var(--vh));
-		padding-right: calc(10 * var(--vh));
+		padding-top: 10vh;
+		padding-bottom: 15vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
 	}
 }
 
-@media (min-width: 767px)
-  and (max-width: 991px) {
-    .logo1 {
-		padding-top: calc(8 * var(--vh));
-		padding-bottom: calc(8 * var(--vh));
+@media (min-width: 766px) and (max-width: 991px) {
+	.logo1 {
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
 	}
 	.logo2 {
-		padding-top: calc(5 * var(--vh));
-		padding-bottom: calc(5 * var(--vh));
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+		padding-left: 5vh;
+		padding-right: 5vh;
 	}
 	.logo3 {
-		padding-left: calc(25 * var(--vh));
-		padding-right: calc(25 * var(--vh));
+		padding-top: 20vh;
+		padding-bottom: 25vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
 	}
 	.logo4 {
-		padding-left: calc(25 * var(--vh));
-		padding-right: calc(25 * var(--vh));
+		padding-top: 15vh;
+		padding-bottom: 20vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
 	}
 }
 
-@media (min-width: 991px) {
-    .logo1 {
-		padding-top: calc(23 * var(--vh));
-		padding-bottom: calc(27 * var(--vh));
+@media (min-width: 991px) and (max-width: 1199px) {
+	.logo1 {
+		padding-top: 25vh;
+		padding-bottom: 25vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
 	}
 	.logo2 {
-		padding-top: calc(18 * var(--vh));
-		padding-bottom: calc(22 * var(--vh));
+		padding-top: 20vh;
+		padding-bottom: 20vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
 	}
 	.logo3 {
-		padding-left: calc(5 * var(--vh));
-		padding-right: calc(5 * var(--vh));
+		padding-top: 5vh;
+		padding-bottom: 10vh;
+		padding-left: 5vh;
+		padding-right: 5vh;
 	}
 	.logo4 {
-		padding-left: calc(5 * var(--vh));
-		padding-right: calc(5 * var(--vh));
+		padding-top: 10vh;
+		padding-bottom: 15vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
 	}
 }
 
-@media (min-width: 991px)
-  and (max-width: 1199px) {
-    .logo1 {
-		padding-top: calc(23 * var(--vh));
-		padding-bottom: calc(27 * var(--vh));
+@media (min-width: 1199px) and (max-width: 1399px) {
+	.logo1 {
+		padding-top: 22vh;
+		padding-bottom: 27vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
 	}
 	.logo2 {
-		padding-top: calc(18 * var(--vh));
-		padding-bottom: calc(22 * var(--vh));
+		padding-top: 18vh;
+		padding-bottom: 23vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
 	}
 	.logo3 {
-		padding-left: calc(5 * var(--vh));
-		padding-right: calc(5 * var(--vh));
+		padding-top: 5vh;
+		padding-bottom: 10vh;
+		padding-left: 5vh;
+		padding-right: 5vh;
 	}
 	.logo4 {
-		padding-left: calc(5 * var(--vh));
-		padding-right: calc(5 * var(--vh));
+		padding-top: 5vh;
+		padding-bottom: 10vh;
+		padding-left: 5vh;
+		padding-right: 5vh;
+	}
+}
+
+@media (min-width: 1399px) {
+	.logo1 {
+		padding-top: 22vh;
+		padding-bottom: 27vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
+	}
+	.logo2 {
+		padding-top: 18vh;
+		padding-bottom: 23vh;
+		padding-left: 10vh;
+		padding-right: 10vh;
+	}
+	.logo3 {
+		padding-top: 10vh;
+		padding-bottom: 15vh;
+		padding-left: 15vh;
+		padding-right: 15vh;
+	}
+	.logo4 {
+		padding-top: 10vh;
+		padding-bottom: 15vh;
+		padding-left: 15vh;
+		padding-right: 15vh;
 	}
 }
 
@@ -105,6 +161,12 @@
 	.fp-viewing-GiftVoucher #fp-nav {top: calc(85 * var(--vh))}
 	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
 	.fp-viewing-ContactMe #fp-nav {display: none !important}
+}
+
+@media (min-width: 991px) and (max-width: 1399px) {
+	.caption p {
+		font-size: 1rem;
+	}
 }
 
 @media (min-width: 991px) {
