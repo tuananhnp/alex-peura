@@ -104,7 +104,7 @@
 	.portrait {
 		height: calc(70 * var(--vh)) !important;
 	}
-	.owl-carousel {
+	.owl-full {
 		height: calc(100 * var(--vh)) !important;
 	}
 	.owl-slide {
