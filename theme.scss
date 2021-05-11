@@ -251,6 +251,10 @@ drop {
 #miscellaneous .owl-prev i {color: #dbc571}
 #miscellaneous .owl-next i {color: #dbc571}
 
+.owl-carousel .owl-item .owl-lazy:not([src]), .owl-carousel .owl-item .owl-lazy[src^=""] {
+    max-height: none !important;
+}
+
 
 /* Remove blank space below footer on iPad */
 body {   
