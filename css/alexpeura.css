@@ -273,42 +273,42 @@
 #fp-nav ul li a span {background: #dbc571 !important}
 .fp-tooltip {color: #dbc571 !important}
 
-.fp-viewing-Intro #logodesign {display: none}
+.fp-viewing-Intro #logodesign {display: block}
 .fp-viewing-LogoDesign #logodesign {display: block}
-.fp-viewing-BookCovers #logodesign {display: none}
+.fp-viewing-BookCovers #logodesign {display: block}
 .fp-viewing-ValentineCards #logodesign {display: none}
 .fp-viewing-GiftVoucher #logodesign {display: none}
 .fp-viewing-Miscellaneous #logodesign {display: none}
 .fp-viewing-ContactMe #logodesign {display: none}
 
 .fp-viewing-Intro #bookcovers {display: none}
-.fp-viewing-LogoDesign #bookcovers {display: none}
+.fp-viewing-LogoDesign #bookcovers {display: block}
 .fp-viewing-BookCovers #bookcovers {display: block}
-.fp-viewing-ValentineCards #bookcovers {display: none}
+.fp-viewing-ValentineCards #bookcovers {display: block}
 .fp-viewing-GiftVoucher #bookcovers {display: none}
 .fp-viewing-Miscellaneous #bookcovers {display: none}
 .fp-viewing-ContactMe #bookcovers {display: none}
 
 .fp-viewing-Intro #valentinecards {display: none}
 .fp-viewing-LogoDesign #valentinecards {display: none}
-.fp-viewing-BookCovers #valentinecards {display: none}
+.fp-viewing-BookCovers #valentinecards {display: block}
 .fp-viewing-ValentineCards #valentinecards {display: block}
-.fp-viewing-GiftVoucher #valentinecards {display: none}
+.fp-viewing-GiftVoucher #valentinecards {display: block}
 .fp-viewing-Miscellaneous #valentinecards {display: none}
 .fp-viewing-ContactMe #valentinecards {display: none}
 
 .fp-viewing-Intro #giftvoucher {display: none}
 .fp-viewing-LogoDesign #giftvoucher {display: none}
 .fp-viewing-BookCovers #giftvoucher {display: none}
-.fp-viewing-ValentineCards #giftvoucher {display: none}
+.fp-viewing-ValentineCards #giftvoucher {display: block}
 .fp-viewing-GiftVoucher #giftvoucher {display: block}
-.fp-viewing-Miscellaneous #giftvoucher {display: none}
+.fp-viewing-Miscellaneous #giftvoucher {display: block}
 .fp-viewing-ContactMe #giftvoucher {display: none}
 
 .fp-viewing-Intro #miscellaneous {display: none}
 .fp-viewing-LogoDesign #miscellaneous {display: none}
 .fp-viewing-BookCovers #miscellaneous {display: none}
 .fp-viewing-ValentineCards #miscellaneous {display: none}
-.fp-viewing-GiftVoucher #miscellaneous {display: none}
+.fp-viewing-GiftVoucher #miscellaneous {display: block}
 .fp-viewing-Miscellaneous #miscellaneous {display: block}
-.fp-viewing-ContactMe #miscellaneous {display: none}
+.fp-viewing-ContactMe #miscellaneous {display: block}
