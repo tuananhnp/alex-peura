@@ -204,7 +204,12 @@
 		margin-top: -15%;
 	}
 	.owl-slide {
-		height: 70vh;
+		height: calc(70 * var(--vh)) !important;
+	}
+	.owl-lazy {
+		height: calc(70 * var(--vh)) !important;
+		background-size: cover;
+		background-position: center center;
 	}
 	.svg-title-desktop {
 		display: none !important;
@@ -234,8 +239,17 @@
 		display: none;
 	}
 	.owl-slide {
-		height: 100vh;
+		height: calc(100 * var(--vh)) !important;
 	}
+	.owl-lazy {
+		height: calc(100 * var(--vh)) !important;
+		background-size: cover;
+		background-position: center center;
+	}
+}
+
+.owl-carousel .owl-item .owl-lazy:not([src]), .owl-carousel .owl-item .owl-lazy[src^=""] {
+    max-height: none !important;
 }
 
 @media (min-width: 991px) and (max-width: 1399px) {
@@ -243,6 +257,12 @@
 		font-size: 1rem;
 	}
 }
+
+.fp-viewing-LogoDesign .navbar-collapse {background-color: #0b4470}
+.fp-viewing-BookCovers .navbar-collapse {background-color: #0b4470}
+.fp-viewing-ValentineCards .navbar-collapse {background-color: #0b4470}
+.fp-viewing-GiftVoucher .navbar-collapse {background-color: #0b4470}
+.fp-viewing-Miscellaneous .navbar-collapse {background-color: #0b4470}
 
 .fp-tooltip {
   font-family: 'Playfair Display', serif !important;
