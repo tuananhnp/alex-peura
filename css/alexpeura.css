@@ -220,11 +220,11 @@
 	#mouse {
 		display: none !important;
 	}
-	.fp-viewing-LogoDesign #fp-nav {display: none !important}
-	.fp-viewing-BookCovers #fp-nav {display: none !important}
-	.fp-viewing-ValentineCards #fp-nav {display: none !important}
-	.fp-viewing-GiftVoucher #fp-nav {display: none !important}
-	.fp-viewing-Miscellaneous #fp-nav {display: none !important}
+	.fp-viewing-LogoDesign #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-BookCovers #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-ValentineCards #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-GiftVoucher #fp-nav {top: calc(85 * var(--vh))}
+	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
 	.fp-viewing-ContactMe #fp-nav {display: none !important}
 }
 
