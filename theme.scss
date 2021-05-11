@@ -215,30 +215,27 @@ drop {
 #logodesign .owl-prev i {color: #dbc571}
 #logodesign .owl-next i {color: #dbc571}
 
-#bookcovers .owl-dots {
+#bookcover .owl-dots {
   .active span {background: #dbc571 !important;}
   span {background: #f4efd2 !important;}
   span:hover {background: #dbc571 !important;}
 }
+#bookcover .owl-prev i {color: #dbc571}
+#bookcover .owl-next i {color: #dbc571}
 
-#bookcovers .owl-prev i {color: #dbc571}
-#bookcovers .owl-next i {color: #dbc571}
-
-#valentinecards .owl-dots {
+#valentinecard .owl-dots {
   .active span {background: #dbc571 !important;}
   span {background: #f4efd2 !important;}
   span:hover {background: #dbc571 !important;}
 }
-
-#valentinecards .owl-prev i {color: #dbc571}
-#valentinecards .owl-next i {color: #dbc571}
+#valentinecard .owl-prev i {color: #dbc571}
+#valentinecard .owl-next i {color: #dbc571}
 
 #giftvoucher .owl-dots {
   .active span {background: #dbc571 !important;}
   span {background: #f4efd2 !important;}
   span:hover {background: #dbc571 !important;}
 }
-
 #giftvoucher .owl-prev i {color: #dbc571}
 #giftvoucher .owl-next i {color: #dbc571}
 
@@ -247,7 +244,6 @@ drop {
   span {background: #f4efd2 !important;}
   span:hover {background: #dbc571 !important;}
 }
-
 #miscellaneous .owl-prev i {color: #dbc571}
 #miscellaneous .owl-next i {color: #dbc571}
 

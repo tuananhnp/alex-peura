@@ -144,34 +144,34 @@ drop {
 #logodesign .owl-next i {
   color: #dbc571; }
 
-#bookcovers .owl-dots .active span {
+#bookcover .owl-dots .active span {
   background: #dbc571 !important; }
 
-#bookcovers .owl-dots span {
+#bookcover .owl-dots span {
   background: #f4efd2 !important; }
 
-#bookcovers .owl-dots span:hover {
+#bookcover .owl-dots span:hover {
   background: #dbc571 !important; }
 
-#bookcovers .owl-prev i {
+#bookcover .owl-prev i {
   color: #dbc571; }
 
-#bookcovers .owl-next i {
+#bookcover .owl-next i {
   color: #dbc571; }
 
-#valentinecards .owl-dots .active span {
+#valentinecard .owl-dots .active span {
   background: #dbc571 !important; }
 
-#valentinecards .owl-dots span {
+#valentinecard .owl-dots span {
   background: #f4efd2 !important; }
 
-#valentinecards .owl-dots span:hover {
+#valentinecard .owl-dots span:hover {
   background: #dbc571 !important; }
 
-#valentinecards .owl-prev i {
+#valentinecard .owl-prev i {
   color: #dbc571; }
 
-#valentinecards .owl-next i {
+#valentinecard .owl-next i {
   color: #dbc571; }
 
 #giftvoucher .owl-dots .active span {
