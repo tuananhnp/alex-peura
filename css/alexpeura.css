@@ -273,42 +273,42 @@
 #fp-nav ul li a span {background: #dbc571 !important}
 .fp-tooltip {color: #dbc571 !important}
 
-.fp-viewing-Intro #logodesign {visibility: hidden}
-.fp-viewing-LogoDesign #logodesign {visibility: visible}
-.fp-viewing-BookCovers #logodesign {visibility: hidden}
-.fp-viewing-GiftVoucher #logodesign {visibility: hidden}
-.fp-viewing-ValentineCards #logodesign {visibility: hidden}
-.fp-viewing-Miscellaneous #logodesign {visibility: hidden}
-.fp-viewing-ContactMe #logodesign {visibility: hidden}
+.fp-viewing-Intro #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-LogoDesign #logodesign {visibility: visible; opacity: 1; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-BookCovers #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GiftVoucher #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ValentineCards #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-Miscellaneous #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ContactMe #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 
-.fp-viewing-Intro #bookcovers {visibility: hidden}
-.fp-viewing-LogoDesign #bookcovers {visibility: hidden}
-.fp-viewing-BookCovers #bookcovers {visibility: visible}
-.fp-viewing-GiftVoucher #bookcovers {visibility: hidden}
-.fp-viewing-ValentineCards #bookcovers {visibility: hidden}
-.fp-viewing-Miscellaneous #bookcovers {visibility: hidden}
-.fp-viewing-ContactMe #bookcovers {visibility: hidden}
+.fp-viewing-Intro #bookcovers {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-LogoDesign #bookcovers {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-BookCovers #bookcovers {visibility: visible; opacity: 1; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GiftVoucher #bookcovers {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ValentineCards #bookcovers {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-Miscellaneous #bookcovers {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ContactMe #bookcovers {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 
-.fp-viewing-Intro #giftvoucher {visibility: hidden}
-.fp-viewing-LogoDesign #giftvoucher {visibility: hidden}
-.fp-viewing-BookCovers #giftvoucher {visibility: hidden}
-.fp-viewing-GiftVoucher #giftvoucher {visibility: visible}
-.fp-viewing-ValentineCards #giftvoucher {visibility: hidden}
-.fp-viewing-Miscellaneous #giftvoucher {visibility: hidden}
-.fp-viewing-ContactMe #giftvoucher {visibility: hidden}
+.fp-viewing-Intro #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-LogoDesign #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-BookCovers #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GiftVoucher #giftvoucher {visibility: visible; opacity: 1; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ValentineCards #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-Miscellaneous #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ContactMe #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 
-.fp-viewing-Intro #valentinecards {visibility: hidden}
-.fp-viewing-LogoDesign #valentinecards {visibility: hidden}
-.fp-viewing-BookCovers #valentinecards {visibility: hidden}
-.fp-viewing-GiftVoucher #valentinecards {visibility: hidden}
-.fp-viewing-ValentineCards #valentinecards {visibility: visible}
-.fp-viewing-Miscellaneous #valentinecards {visibility: hidden}
-.fp-viewing-ContactMe #valentinecards {visibility: hidden}
+.fp-viewing-Intro #valentinecards {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-LogoDesign #valentinecards {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-BookCovers #valentinecards {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GiftVoucher #valentinecards {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ValentineCards #valentinecards {visibility: visible; opacity: 1; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-Miscellaneous #valentinecards {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ContactMe #valentinecards {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 
-.fp-viewing-Intro #miscellaneous {visibility: hidden}
-.fp-viewing-LogoDesign #miscellaneous {visibility: hidden}
-.fp-viewing-BookCovers #miscellaneous {visibility: hidden}
-.fp-viewing-GiftVoucher #miscellaneous {visibility: hidden}
-.fp-viewing-ValentineCards #miscellaneous {visibility: hidden}
-.fp-viewing-Miscellaneous #miscellaneous {visibility: visible}
-.fp-viewing-ContactMe #miscellaneous {visibility: hidden}
+.fp-viewing-Intro #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-LogoDesign #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-BookCovers #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GiftVoucher #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ValentineCards #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-Miscellaneous #miscellaneous {visibility: visible; opacity: 1; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ContactMe #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
