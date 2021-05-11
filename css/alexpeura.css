@@ -197,14 +197,14 @@
 	.portrait {
 		height: calc(70 * var(--vh)) !important;
 	}
-	.owl-slide {
-		height: calc(70 * var(--vh)) !important;
-	}
 	.signature {
 		height: calc(30 * var(--vh)) !important;
 	}
 	.signature-inner {
 		margin-top: -15%;
+	}
+	.owl-slide {
+		height: 70vh;
 	}
 	.svg-title-desktop {
 		display: none !important;
@@ -223,17 +223,8 @@
 	.fp-viewing-ContactMe #fp-nav {display: none !important}
 }
 
-@media (min-width: 991px) and (max-width: 1399px) {
-	.caption p {
-		font-size: 1rem;
-	}
-}
-
 @media (min-width: 991px) {
 	.portrait {
-		height: calc(100 * var(--vh));
-	}
-	.owl-slide {
 		height: calc(100 * var(--vh));
 	}
 	.signature {
@@ -241,6 +232,15 @@
 	}
 	.svg-title-mobile {
 		display: none;
+	}
+	.owl-slide {
+		height: 100vh;
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1399px) {
+	.caption p {
+		font-size: 1rem;
 	}
 }
 
