@@ -28,6 +28,11 @@ $('.gift-voucher').click(function() {
   $('.animated-icon').toggleClass('open');
 });
 
+$('.menu-covers').click(function() {
+  $('#navbar4').slideToggle(300);
+  $('.animated-icon').toggleClass('open');
+});
+
 $('.miscellaneous').click(function() {
   $('#navbar4').slideToggle(300);
   $('.animated-icon').toggleClass('open');

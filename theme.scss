@@ -224,11 +224,32 @@ drop {
 #bookcovers .owl-prev i {color: #dbc571}
 #bookcovers .owl-next i {color: #dbc571}
 
-#examples .owl-dots {
-  .active span {background: #af3618 !important;}
-  span {background: #094877 !important;}
-  span:hover {background: #af3618 !important;}
+#valentinecards .owl-dots {
+  .active span {background: #dbc571 !important;}
+  span {background: #f4efd2 !important;}
+  span:hover {background: #dbc571 !important;}
 }
+
+#valentinecards .owl-prev i {color: #dbc571}
+#valentinecards .owl-next i {color: #dbc571}
+
+#giftvoucher .owl-dots {
+  .active span {background: #dbc571 !important;}
+  span {background: #f4efd2 !important;}
+  span:hover {background: #dbc571 !important;}
+}
+
+#giftvoucher .owl-prev i {color: #dbc571}
+#giftvoucher .owl-next i {color: #dbc571}
+
+#miscellaneous .owl-dots {
+  .active span {background: #dbc571 !important;}
+  span {background: #f4efd2 !important;}
+  span:hover {background: #dbc571 !important;}
+}
+
+#miscellaneous .owl-prev i {color: #dbc571}
+#miscellaneous .owl-next i {color: #dbc571}
 
 
 /* Remove blank space below footer on iPad */
