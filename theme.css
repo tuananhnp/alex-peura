@@ -12,10 +12,7 @@ html::-webkit-scrollbar {
 html {
   scrollbar-width: none; }
 
-/* Full-height cover section
-html, body {
-   height:100%;
-} */
+/* Favicon hover transition */
 .fa {
   color: #dbc571;
   transition: 0.3s !important; }
@@ -36,10 +33,6 @@ html, body {
   color: #af3618 !important;
   transition: 0.3s !important; }
 
-.navbar img {
-  /* Add transition while shrinking logo on scroll */
-  transition: 0.8s !important; }
-
 /* Override dropdown's click highlight color */
 .dropdown-item:active {
   background-color: transparent !important; }
@@ -56,18 +49,6 @@ html, body {
 .btn-outline-light, .btn-outline-dark {
   transition: background .5s ease !important; }
 
-.btn-dark {
-  background: #dbc571 !important;
-  color: #0b4470 !important;
-  border: 3px solid #dbc571 !important;
-  transition: background .5s ease !important; }
-
-.btn-dark:hover {
-  background: #0b4470 !important;
-  color: #dbc571 !important;
-  border: 3px solid #dbc571 !important;
-  transition: background .5s ease !important; }
-
 .btn-primary {
   background: #dbc571 !important;
   color: black !important;
@@ -76,6 +57,18 @@ html, body {
 
 .btn-primary:hover {
   background: black !important;
+  color: #dbc571 !important;
+  border: 3px solid #dbc571 !important;
+  transition: background .5s ease !important; }
+
+.btn-dark {
+  background: #dbc571 !important;
+  color: #0b4470 !important;
+  border: 3px solid #dbc571 !important;
+  transition: background .5s ease !important; }
+
+.btn-dark:hover {
+  background: #0b4470 !important;
   color: #dbc571 !important;
   border: 3px solid #dbc571 !important;
   transition: background .5s ease !important; }
@@ -107,7 +100,7 @@ drop {
   font-size: 450%;
   font-family: 'Playfair Display', serif; }
 
-/* Styling owl carousel's prev & next buttons */
+/* Styling owl carousels */
 .owl-prev, .owl-next {
   position: absolute;
   top: 50%;
