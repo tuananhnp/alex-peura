@@ -410,10 +410,6 @@
 	#mouse {
 		display: none !important;
 	}
-	.fp-viewing-InteriorSpacePhotography .owl-dots {display: none !important}
-	.fp-viewing-FoodDrinkPhotography .owl-dots {display: none !important}
-	.fp-viewing-FashionPhotography .owl-dots {display: none !important}
-	.fp-viewing-GeneralPhotography .owl-dots {display: none !important}
 	.fp-viewing-InteriorSpacePhotography #fp-nav {display: none}
 	.fp-viewing-FoodDrinkPhotography #fp-nav {display: none}
 	.fp-viewing-FashionPhotography #fp-nav {display: none}
