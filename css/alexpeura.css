@@ -385,18 +385,16 @@
 	.fp-viewing-FashionPhotography #fp-nav {display: none}
 	.fp-viewing-GeneralPhotography #fp-nav {display: none}
 	.fp-viewing-ContactMe #fp-nav {display: none}
-	.owl-prev {display: none !important}
-	.owl-next {display: none !important}
 }
 
 @media (max-width: 991px) {
-	.portrait {
+	.visual {
 		height: calc(70 * var(--vh)) !important;
 	}
-	.signature {
+	.textual {
 		height: calc(30 * var(--vh)) !important;
 	}
-	.signature-inner {
+	.textual-inner {
 		margin-top: -15%;
 	}
 	.owl-slide {
@@ -416,13 +414,15 @@
 	#mouse {
 		display: none !important;
 	}
+	.owl-prev {display: none !important}
+	.owl-next {display: none !important}
 }
 
 @media (min-width: 991px) {
-	.portrait {
+	.visual {
 		height: calc(100 * var(--vh));
 	}
-	.signature {
+	.textual {
 		height: calc(100 * var(--vh));
 	}
 	.svg-title-mobile {
@@ -449,6 +449,15 @@
 		font-size: 2.8rem;
 	}
 }
+
+.fp-viewing-InteriorSpacePhotography .owl-prev {display: none !important}
+.fp-viewing-FoodDrinkPhotography .owl-prev {display: none !important}
+.fp-viewing-FashionPhotography .owl-prev {display: none !important}
+.fp-viewing-GeneralPhotography .owl-prev {display: none !important}
+.fp-viewing-InteriorSpacePhotography .owl-next {display: none !important}
+.fp-viewing-FoodDrinkPhotography .owl-next {display: none !important}
+.fp-viewing-FashionPhotography .owl-next {display: none !important}
+.fp-viewing-GeneralPhotography .owl-next {display: none !important}
 
 .fp-viewing-LogoDesign .navbar-collapse {background-color: #0b4470}
 .fp-viewing-BookCover .navbar-collapse {background-color: #0b4470}
