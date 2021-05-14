@@ -373,6 +373,22 @@
 	}
 }
 
+@media (max-width: 766px) {
+	.fp-viewing-Intro #fp-nav {display: none}
+	.fp-viewing-LogoDesign #fp-nav {display: none}
+	.fp-viewing-BookCover #fp-nav {display: none}
+	.fp-viewing-GiftVoucher #fp-nav {display: none}
+	.fp-viewing-ValentineCard #fp-nav {display: none}
+	.fp-viewing-Miscellaneous #fp-nav {display: none}
+	.fp-viewing-InteriorSpacePhotography #fp-nav {display: none}
+	.fp-viewing-FoodDrinkPhotography #fp-nav {display: none}
+	.fp-viewing-FashionPhotography #fp-nav {display: none}
+	.fp-viewing-GeneralPhotography #fp-nav {display: none}
+	.fp-viewing-ContactMe #fp-nav {display: none}
+	.owl-prev {display: none !important}
+	.owl-next {display: none !important}
+}
+
 @media (max-width: 991px) {
 	.portrait {
 		height: calc(70 * var(--vh)) !important;
@@ -400,12 +416,6 @@
 	#mouse {
 		display: none !important;
 	}
-	.fp-viewing-LogoDesign #fp-nav {top: calc(85 * var(--vh))}
-	.fp-viewing-BookCover #fp-nav {top: calc(85 * var(--vh))}
-	.fp-viewing-ValentineCard #fp-nav {top: calc(85 * var(--vh))}
-	.fp-viewing-GiftVoucher #fp-nav {top: calc(85 * var(--vh))}
-	.fp-viewing-Miscellaneous #fp-nav {top: calc(85 * var(--vh))}
-	.fp-viewing-ContactMe #fp-nav {display: none !important}
 }
 
 @media (min-width: 991px) {
@@ -434,6 +444,12 @@
 	}
 }
 
+@media (min-width: 991px) and (max-width: 1399px) {
+	.photography-title {
+		font-size: 2.8rem;
+	}
+}
+
 .fp-viewing-LogoDesign .navbar-collapse {background-color: #0b4470}
 .fp-viewing-BookCover .navbar-collapse {background-color: #0b4470}
 .fp-viewing-ValentineCard .navbar-collapse {background-color: #0b4470}
@@ -455,6 +471,10 @@
 .fp-viewing-GiftVoucher #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-ValentineCard #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-Miscellaneous #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-InteriorSpacePhotography #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FoodDrinkPhotography #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FashionPhotography #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GeneralPhotography #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-ContactMe #logodesign {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 
 .fp-viewing-Intro #bookcover {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
@@ -463,6 +483,10 @@
 .fp-viewing-GiftVoucher #bookcover {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-ValentineCard #bookcover {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-Miscellaneous #bookcover {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-InteriorSpacePhotography #bookcover {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FoodDrinkPhotography #bookcover {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FashionPhotography #bookcover {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GeneralPhotography #bookcover {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-ContactMe #bookcover {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 
 .fp-viewing-Intro #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
@@ -471,6 +495,10 @@
 .fp-viewing-GiftVoucher #giftvoucher {visibility: visible; opacity: 1; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-ValentineCard #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-Miscellaneous #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-InteriorSpacePhotography #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FoodDrinkPhotography #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FashionPhotography #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GeneralPhotography #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-ContactMe #giftvoucher {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 
 .fp-viewing-Intro #valentinecard {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
@@ -479,6 +507,10 @@
 .fp-viewing-GiftVoucher #valentinecard {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-ValentineCard #valentinecard {visibility: visible; opacity: 1; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-Miscellaneous #valentinecard {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-InteriorSpacePhotography #valentinecard {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FoodDrinkPhotography #valentinecard {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FashionPhotography #valentinecard {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GeneralPhotography #valentinecard {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-ContactMe #valentinecard {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 
 .fp-viewing-Intro #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
@@ -487,4 +519,56 @@
 .fp-viewing-GiftVoucher #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-ValentineCard #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-Miscellaneous #miscellaneous {visibility: visible; opacity: 1; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-InteriorSpacePhotography #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FoodDrinkPhotography #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FashionPhotography #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GeneralPhotography #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
 .fp-viewing-ContactMe #miscellaneous {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+
+.fp-viewing-Intro #interior-space {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-LogoDesign #interior-space {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-BookCover #interior-space {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GiftVoucher #interior-space {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ValentineCard #interior-space {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-Miscellaneous #interior-space {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-InteriorSpacePhotography #interior-space {visibility: visible; opacity: 1; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FoodDrinkPhotography #interior-space {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FashionPhotography #interior-space {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GeneralPhotography #interior-space {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ContactMe #interior-space {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+
+.fp-viewing-Intro #food-drink {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-LogoDesign #food-drink {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-BookCover #food-drink {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GiftVoucher #food-drink {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ValentineCard #food-drink {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-Miscellaneous #food-drink {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-InteriorSpacePhotography #food-drink {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FoodDrinkPhotography #food-drink {visibility: visible; opacity: 1; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FashionPhotography #food-drink {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GeneralPhotography #food-drink {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ContactMe #food-drink {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+
+.fp-viewing-Intro #fashion {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-LogoDesign #fashion {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-BookCover #fashion {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GiftVoucher #fashion {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ValentineCard #fashion {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-Miscellaneous #fashion {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-InteriorSpacePhotography #fashion {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FoodDrinkPhotography #fashion {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FashionPhotography #fashion {visibility: visible; opacity: 1; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GeneralPhotography #fashion {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ContactMe #fashion {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+
+.fp-viewing-Intro #general {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-LogoDesign #general {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-BookCover #general {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GiftVoucher #general {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ValentineCard #general {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-Miscellaneous #general {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-InteriorSpacePhotography #general {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FoodDrinkPhotography #general {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-FashionPhotography #general {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-GeneralPhotography #general {visibility: visible; opacity: 1; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}
+.fp-viewing-ContactMe #general {visibility: hidden; opacity: 0; transition: opacity 300ms ease-in, visibility 0ms ease-in 300ms;}

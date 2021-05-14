@@ -197,6 +197,66 @@ drop {
 #miscellaneous .owl-next i {
   color: #dbc571; }
 
+#interior-space .owl-dots .active span {
+  background: #dbc571 !important; }
+
+#interior-space .owl-dots span {
+  background: #f4efd2 !important; }
+
+#interior-space .owl-dots span:hover {
+  background: #dbc571 !important; }
+
+#interior-space .owl-prev i {
+  color: #dbc571; }
+
+#interior-space .owl-next i {
+  color: #dbc571; }
+
+#food-drink .owl-dots .active span {
+  background: #dbc571 !important; }
+
+#food-drink .owl-dots span {
+  background: #f4efd2 !important; }
+
+#food-drink .owl-dots span:hover {
+  background: #dbc571 !important; }
+
+#food-drink .owl-prev i {
+  color: #dbc571; }
+
+#food-drink .owl-next i {
+  color: #dbc571; }
+
+#fashion .owl-dots .active span {
+  background: #dbc571 !important; }
+
+#fashion .owl-dots span {
+  background: #f4efd2 !important; }
+
+#fashion .owl-dots span:hover {
+  background: #dbc571 !important; }
+
+#fashion .owl-prev i {
+  color: #dbc571; }
+
+#fashion .owl-next i {
+  color: #dbc571; }
+
+#general .owl-dots .active span {
+  background: #dbc571 !important; }
+
+#general .owl-dots span {
+  background: #f4efd2 !important; }
+
+#general .owl-dots span:hover {
+  background: #dbc571 !important; }
+
+#general .owl-prev i {
+  color: #dbc571; }
+
+#fashion .owl-next i {
+  color: #dbc571; }
+
 .owl-carousel .owl-item .owl-lazy:not([src]), .owl-carousel .owl-item .owl-lazy[src^=""] {
   max-height: none !important; }
 

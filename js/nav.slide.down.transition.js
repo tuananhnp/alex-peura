@@ -32,3 +32,8 @@ $('.miscellaneous').click(function() {
   $('#navbar4').slideToggle(300);
   $('.animated-icon').toggleClass('open');
 });
+
+$('.photography').click(function() {
+  $('#navbar4').slideToggle(300);
+  $('.animated-icon').toggleClass('open');
+});
