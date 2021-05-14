@@ -254,7 +254,7 @@ drop {
 #general .owl-prev i {
   color: #dbc571; }
 
-#fashion .owl-next i {
+#general .owl-next i {
   color: #dbc571; }
 
 .owl-carousel .owl-item .owl-lazy:not([src]), .owl-carousel .owl-item .owl-lazy[src^=""] {
