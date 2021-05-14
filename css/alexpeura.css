@@ -380,10 +380,6 @@
 	.fp-viewing-GiftVoucher #fp-nav {display: none}
 	.fp-viewing-ValentineCard #fp-nav {display: none}
 	.fp-viewing-Miscellaneous #fp-nav {display: none}
-	.fp-viewing-InteriorSpacePhotography #fp-nav {display: none}
-	.fp-viewing-FoodDrinkPhotography #fp-nav {display: none}
-	.fp-viewing-FashionPhotography #fp-nav {display: none}
-	.fp-viewing-GeneralPhotography #fp-nav {display: none}
 	.fp-viewing-ContactMe #fp-nav {display: none}
 }
 
@@ -414,8 +410,14 @@
 	#mouse {
 		display: none !important;
 	}
-	.owl-prev {display: none !important}
-	.owl-next {display: none !important}
+	.fp-viewing-InteriorSpacePhotography .owl-dots {display: none !important}
+	.fp-viewing-FoodDrinkPhotography .owl-dots {display: none !important}
+	.fp-viewing-FashionPhotography .owl-dots {display: none !important}
+	.fp-viewing-GeneralPhotography .owl-dots {display: none !important}
+	.fp-viewing-InteriorSpacePhotography #fp-nav {display: none}
+	.fp-viewing-FoodDrinkPhotography #fp-nav {display: none}
+	.fp-viewing-FashionPhotography #fp-nav {display: none}
+	.fp-viewing-GeneralPhotography #fp-nav {display: none}
 }
 
 @media (min-width: 991px) {
@@ -436,6 +438,14 @@
 		background-size: cover;
 		background-position: center center;
 	}
+	.fp-viewing-InteriorSpacePhotography .owl-prev {display: none !important}
+	.fp-viewing-FoodDrinkPhotography .owl-prev {display: none !important}
+	.fp-viewing-FashionPhotography .owl-prev {display: none !important}
+	.fp-viewing-GeneralPhotography .owl-prev {display: none !important}
+	.fp-viewing-InteriorSpacePhotography .owl-next {display: none !important}
+	.fp-viewing-FoodDrinkPhotography .owl-next {display: none !important}
+	.fp-viewing-FashionPhotography .owl-next {display: none !important}
+	.fp-viewing-GeneralPhotography .owl-next {display: none !important}
 }
 
 @media (min-width: 991px) and (max-width: 1399px) {
@@ -449,15 +459,6 @@
 		font-size: 2.8rem;
 	}
 }
-
-.fp-viewing-InteriorSpacePhotography .owl-prev {display: none !important}
-.fp-viewing-FoodDrinkPhotography .owl-prev {display: none !important}
-.fp-viewing-FashionPhotography .owl-prev {display: none !important}
-.fp-viewing-GeneralPhotography .owl-prev {display: none !important}
-.fp-viewing-InteriorSpacePhotography .owl-next {display: none !important}
-.fp-viewing-FoodDrinkPhotography .owl-next {display: none !important}
-.fp-viewing-FashionPhotography .owl-next {display: none !important}
-.fp-viewing-GeneralPhotography .owl-next {display: none !important}
 
 .fp-viewing-LogoDesign .navbar-collapse {background-color: #0b4470}
 .fp-viewing-BookCover .navbar-collapse {background-color: #0b4470}
