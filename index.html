@@ -523,6 +523,32 @@
     });
   </script>
   <script>
+    $(document).ready(function() {
+      $('.nav-button').on('click', function() {
+        $('.animated-icon').toggleClass('open');
+      });
+    });
+  </script>
+  <script>
+    $("body").on("contextmenu", "img", function(e) {
+      return false;
+    });
+  </script>
+  <script>
+    $('.btn, .btn-outline, .btn-lg').click(function() {
+      var sectionTo = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(sectionTo).offset().top
+      }, 2000);
+    });
+  </script>
+  <script>
+    function switchColor() {
+      var element = document.body;
+      element.classList.toggle("switch-color");
+    }
+  </script>
+  <script>
     new fullpage('#fullpage', {
       navigation: true,
       scrollingSpeed: 500,
@@ -672,32 +698,6 @@
     var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '1%');
     dots.css('left', '50%');
     dots.css('transform', 'translate(-50%, -50%');
-  </script>
-  <script>
-    $(document).ready(function() {
-      $('.nav-button').on('click', function() {
-        $('.animated-icon').toggleClass('open');
-      });
-    });
-  </script>
-  <script>
-    $("body").on("contextmenu", "img", function(e) {
-      return false;
-    });
-  </script>
-  <script>
-    $('.btn, .btn-outline, .btn-lg').click(function() {
-      var sectionTo = $(this).attr('href');
-      $('html, body').animate({
-        scrollTop: $(sectionTo).offset().top
-      }, 2000);
-    });
-  </script>
-  <script>
-    function switchColor() {
-      var element = document.body;
-      element.classList.toggle("switch-color");
-    }
   </script>
 </body>
 
