@@ -412,10 +412,7 @@
 	}
 	.fp-viewing-LogoDesign .owl-prev {top: 35% !important}
 	.fp-viewing-LogoDesign .owl-next {top: 35% !important}
-	.fp-viewing-InteriorSpacePhotography #fp-nav {display: none}
-	.fp-viewing-FoodDrinkPhotography #fp-nav {display: none}
-	.fp-viewing-FashionPhotography #fp-nav {display: none}
-	.fp-viewing-GeneralPhotography #fp-nav {display: none}
+	#fp-nav {display: none}
 }
 
 @media (min-width: 991px) {
