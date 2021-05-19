@@ -410,6 +410,8 @@
 	#mouse {
 		display: none !important;
 	}
+	.fp-viewing-LogoDesign .owl-prev {top: 35% !important}
+	.fp-viewing-LogoDesign .owl-next {top: 35% !important}
 	.fp-viewing-InteriorSpacePhotography #fp-nav {display: none}
 	.fp-viewing-FoodDrinkPhotography #fp-nav {display: none}
 	.fp-viewing-FashionPhotography #fp-nav {display: none}
@@ -434,6 +436,8 @@
 		background-size: cover;
 		background-position: center center;
 	}
+	.fp-viewing-LogoDesign .owl-prev {display: none !important}
+	.fp-viewing-LogoDesign .owl-next {display: none !important}
 	.fp-viewing-InteriorSpacePhotography .owl-prev {display: none !important}
 	.fp-viewing-FoodDrinkPhotography .owl-prev {display: none !important}
 	.fp-viewing-FashionPhotography .owl-prev {display: none !important}
