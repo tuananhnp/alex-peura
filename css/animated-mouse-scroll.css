@@ -28,7 +28,7 @@ button#mouse > span {
 }
 
 button#mouse:hover > span {
-  background: #094877;
+  background: black;
   transition: 0.3s;
 }
 
