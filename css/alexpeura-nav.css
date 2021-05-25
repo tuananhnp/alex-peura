@@ -40,6 +40,9 @@
 	.brand img {
 		width: 120px
 	}
+	.navbar-nav {
+		top: 48% !important;
+	}
 }
 
 .navbar-collapse { /* MOBILE: Enable fullscreen menu */
@@ -54,7 +57,7 @@
 
 .navbar-nav { /* MOBILE: Position links in fullscreen menu */
 	position: absolute;
-	top: 48%;
+	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
